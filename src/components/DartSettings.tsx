@@ -5,15 +5,18 @@ import {
   verifyDartApiKey,
   type DartKeyVerifyResult,
 } from "../services/dartService";
+import { getDartProxyBaseForSettings, saveDartProxyBase } from "../utils/dartApiBase";
 
 export default function DartSettings() {
   const [key, setKey] = useState(() => localStorage.getItem("dart_api_key") ?? "");
+  const [proxyBase, setProxyBase] = useState(getDartProxyBaseForSettings);
   const [saved, setSaved] = useState(false);
   const [verify, setVerify] = useState<DartKeyVerifyResult | null>(null);
   const [checking, setChecking] = useState(false);
 
   const handleSave = async () => {
     saveDartApiKey(key);
+    saveDartProxyBase(proxyBase);
     setSaved(true);
     setVerify(null);
     window.setTimeout(() => setSaved(false), 2000);
@@ -34,7 +37,9 @@ export default function DartSettings() {
         <a href="https://opendart.fss.or.kr/" target="_blank" rel="noreferrer">
           opendart.fss.or.kr
         </a>
-        에서 API 키를 발급받아 입력하세요. 공시·기업개요·재무제표 조회에 사용됩니다.
+        에서 API 키를 발급받아 입력하세요. GitHub Pages는 브라우저에서 DART 직접 호출이 안 되므로,{" "}
+        <strong>로컬 dev</strong>·<strong>Vercel</strong> 또는 아래 <strong>프록시 URL</strong>·
+        <strong>빌드 시 캐시</strong>가 필요합니다.
         {import.meta.env.VITE_DART_API_KEY ? " (.env 키 설정됨)" : ""}
       </p>
       <div className="field-row">
@@ -62,6 +67,20 @@ export default function DartSettings() {
         >
           {checking ? "확인 중…" : "연동 확인"}
         </button>
+      </div>
+
+      <div className="field">
+        <label htmlFor="dart-proxy">DART 프록시 Base URL (선택)</label>
+        <input
+          id="dart-proxy"
+          type="url"
+          placeholder="https://your-app.vercel.app/abc/api/dart"
+          value={proxyBase}
+          onChange={(e) => setProxyBase(e.target.value)}
+        />
+        <span className="field-hint">
+          Vercel에 배포한 동일 앱 URL + <code>/abc/api/dart</code> 형식. 비우면 기본 경로 사용.
+        </span>
       </div>
 
       {verify ? (

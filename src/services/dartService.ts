@@ -5,6 +5,10 @@ import type {
   DartFinancialReport,
   DartFinancialRow,
 } from "../types/krxDart";
+import {
+  buildDartApiUrl,
+  buildDartStaticCorpUrl,
+} from "../utils/dartApiBase";
 
 const CORP_CACHE_KEY = "dart_corp_code_map";
 const CORP_CACHE_EXPIRY_KEY = "dart_corp_code_expiry";
@@ -122,18 +126,53 @@ export async function loadCorpCodeMap(apiKey?: string): Promise<Map<string, stri
   const cached = loadCachedCorpMap();
   if (cached && cached.size > 0) return cached;
 
-  const res = await fetch(`/api/dart/corpCode.xml?crtfc_key=${encodeURIComponent(key)}`);
-  if (!res.ok) throw new Error("DART corpCode 다운로드 실패");
+  try {
+    const params = new URLSearchParams({ crtfc_key: key });
+    const res = await fetch(buildDartApiUrl("corpCode.xml", params));
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}`);
+    }
 
-  const buffer = await res.arrayBuffer();
-  const zip = await JSZip.loadAsync(buffer);
-  const xmlFile = zip.file("CORPCODE.xml");
-  if (!xmlFile) throw new Error("CORPCODE.xml 파싱 실패");
+    const buffer = await res.arrayBuffer();
+    const zip = await JSZip.loadAsync(buffer);
+    const xmlFile = zip.file("CORPCODE.xml");
+    if (!xmlFile) throw new Error("CORPCODE.xml 파싱 실패");
 
-  const xml = await xmlFile.async("text");
-  const map = parseCorpCodeXml(xml);
-  saveCachedCorpMap(map);
-  return map;
+    const xml = await xmlFile.async("text");
+    const map = parseCorpCodeXml(xml);
+    if (map.size === 0) throw new Error("corpCode 맵이 비어 있습니다");
+    saveCachedCorpMap(map);
+    return map;
+  } catch (err) {
+    const staticMap = await loadCorpCodeFromStatic();
+    if (staticMap) {
+      saveCachedCorpMap(staticMap);
+      return staticMap;
+    }
+
+    if (err instanceof TypeError) {
+      throw new Error(
+        "DART API 연결 실패(CORS/프록시 없음). GitHub Pages에서는 빌드 시 corpCode 캐시 또는 DART 프록시 URL 설정이 필요합니다.",
+      );
+    }
+
+    const detail = err instanceof Error ? err.message : "알 수 없음";
+    throw new Error(
+      `DART corpCode 다운로드 실패 (${detail}). 로컬은 npm run dev, 배포 사이트는 Vercel 또는 GitHub Secrets에 DART_API_KEY 설정 후 재배포하세요.`,
+    );
+  }
+}
+
+async function loadCorpCodeFromStatic(): Promise<Map<string, string> | null> {
+  try {
+    const res = await fetch(buildDartStaticCorpUrl());
+    if (!res.ok) return null;
+    const data = (await res.json()) as Record<string, string>;
+    const map = new Map(Object.entries(data));
+    return map.size > 0 ? map : null;
+  } catch {
+    return null;
+  }
 }
 
 export async function resolveCorpCode(stockCode: string, apiKey?: string): Promise<string | null> {
@@ -172,7 +211,7 @@ export async function fetchDisclosures(
     page_count: String(options?.pageCount ?? 20),
   });
 
-  const res = await fetch(`/api/dart/list.json?${params}`);
+  const res = await fetch(buildDartApiUrl("list.json", params));
   const json = (await res.json()) as DartListResponse;
 
   if (json.status !== "000") {
@@ -203,7 +242,7 @@ export async function fetchCompanySummary(
   if (!corpCode) return null;
 
   const params = new URLSearchParams({ crtfc_key: key, corp_code: corpCode });
-  const res = await fetch(`/api/dart/company.json?${params}`);
+  const res = await fetch(buildDartApiUrl("company.json", params));
   const json = (await res.json()) as DartCompanyResponse;
 
   if (json.status !== "000" || !json.corp_name) return null;
@@ -268,7 +307,7 @@ async function fetchFinancialReport(
     fs_div: fsDiv,
   });
 
-  const res = await fetch(`/api/dart/fnlttSinglAcnt.json?${params}`);
+  const res = await fetch(buildDartApiUrl("fnlttSinglAcnt.json", params));
   const json = (await res.json()) as DartFinancialResponse;
 
   if (json.status !== "000" || !json.list?.length) return null;
