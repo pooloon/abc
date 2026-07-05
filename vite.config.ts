@@ -1,7 +1,11 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
+/** GitHub Pages: https://pooloon.github.io/vibeCD/investment/ */
+const base = process.env.BASE_PATH ?? "/";
+
 export default defineConfig({
+  base,
   plugins: [react()],
   server: {
     proxy: {
