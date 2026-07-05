@@ -21,10 +21,15 @@ http://localhost:5173/
 
 ## GitHub Pages 배포
 
-`20260705-investment-planner` 브랜치에 push하면 Actions가 자동 배포합니다.
+`20260705-investment-planner` 브랜치 push 시 Actions가 `gh-pages` 브랜치의 `/investment/` 경로에 배포합니다.
 
-1. 저장소 **Settings → Pages → Build and deployment** → Source: **GitHub Actions**
-2. 브랜치 push 후 Actions 탭에서 `Deploy Investment Planner to GitHub Pages` 확인
+**최초 1회 설정 (GitHub 저장소 Settings):**
+
+1. **Pages → Build and deployment → Source:** `Deploy from a branch`
+2. **Branch:** `gh-pages` / `/ (root)`
+3. (선택) 기존 Actions 배포를 유지하려면 **Environments → github-pages → Deployment branches**에 `20260705-investment-planner` 추가
+
+배포 URL: **https://pooloon.github.io/vibeCD/investment/**
 
 수동 빌드:
 
