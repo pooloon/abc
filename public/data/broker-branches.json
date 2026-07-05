@@ -1,0 +1,5349 @@
+{
+  "generatedAt": "2025-12-31",
+  "source": "공무원연금공단_국내주식_거래증권사·위탁운용사_20251231",
+  "brokerCount": 28,
+  "assetManagerCount": 9,
+  "branchCount": 534,
+  "branches": [
+    {
+      "id": "1",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "LS�������� 강남 접근점",
+      "address": "서울특별시 강남구 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "2",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "NH�������� 강남 접근점",
+      "address": "서울특별시 강남구 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "3",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "�α����� 강남 접근점",
+      "address": "서울특별시 강남구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "4",
+      "companyName": "�ѱ���������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "�ѱ��������� 강남 접근점",
+      "address": "서울특별시 강남구 (접근 거점 · �ѱ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "5",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강동구",
+      "branchName": "BNK�������� 강동 접근점",
+      "address": "서울특별시 강동구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "6",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강동구",
+      "branchName": "DB���� 강동 접근점",
+      "address": "서울특별시 강동구 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "7",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강동구",
+      "branchName": "LS���� 강동 접근점",
+      "address": "서울특별시 강동구 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "8",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강동구",
+      "branchName": "SK���� 강동 접근점",
+      "address": "서울특별시 강동구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "9",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강북구",
+      "branchName": "KB���� 강북 접근점",
+      "address": "서울특별시 강북구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "10",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강북구",
+      "branchName": "�ϳ����� 강북 접근점",
+      "address": "서울특별시 강북구 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "11",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강북구",
+      "branchName": "�������� 강북 접근점",
+      "address": "서울특별시 강북구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "12",
+      "companyName": "���������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강북구",
+      "branchName": "��������� 강북 접근점",
+      "address": "서울특별시 강북구 (접근 거점 · ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "13",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강서구",
+      "branchName": "BNK�������� 강서 접근점",
+      "address": "서울특별시 강서구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "14",
+      "companyName": "IBK��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강서구",
+      "branchName": "IBK�������� 강서 접근점",
+      "address": "서울특별시 강서구 (접근 거점 · IBK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "15",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강서구",
+      "branchName": "Ű������ 강서 접근점",
+      "address": "서울특별시 강서구 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "16",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "강서구",
+      "branchName": "�ϳ����� 강서 접근점",
+      "address": "서울특별시 강서구 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "17",
+      "companyName": "DS��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "관악구",
+      "branchName": "DS�������� 관악 접근점",
+      "address": "서울특별시 관악구 (접근 거점 · DS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "18",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "관악구",
+      "branchName": "SK���� 관악 접근점",
+      "address": "서울특별시 관악구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "19",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "관악구",
+      "branchName": "�ڸ��ƿ������� 관악 접근점",
+      "address": "서울특별시 관악구 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "20",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "관악구",
+      "branchName": "�Ｚ���� 관악 접근점",
+      "address": "서울특별시 관악구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "21",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "광진구",
+      "branchName": "�ؽ�Ʈ���� 광진 접근점",
+      "address": "서울특별시 광진구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "22",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "광진구",
+      "branchName": "�ڸ��ƿ������� 광진 접근점",
+      "address": "서울특별시 광진구 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "23",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "광진구",
+      "branchName": "�Ｚ���� 광진 접근점",
+      "address": "서울특별시 광진구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "24",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "광진구",
+      "branchName": "�������� 광진 접근점",
+      "address": "서울특별시 광진구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "25",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "구로구",
+      "branchName": "BNK�������� 구로 접근점",
+      "address": "서울특별시 구로구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "26",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "구로구",
+      "branchName": "DB���� 구로 접근점",
+      "address": "서울특별시 구로구 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "27",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "구로구",
+      "branchName": "�ϳ����� 구로 접근점",
+      "address": "서울특별시 구로구 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "28",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "구로구",
+      "branchName": "�Ｚ���� 구로 접근점",
+      "address": "서울특별시 구로구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "29",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "금천구",
+      "branchName": "LS���� 금천 접근점",
+      "address": "서울특별시 금천구 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "30",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "금천구",
+      "branchName": "NH�������� 금천 접근점",
+      "address": "서울특별시 금천구 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "31",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "금천구",
+      "branchName": "SK���� 금천 접근점",
+      "address": "서울특별시 금천구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "32",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "금천구",
+      "branchName": "���������� 금천 접근점",
+      "address": "서울특별시 금천구 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "33",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "노원구",
+      "branchName": "BNK�������� 노원 접근점",
+      "address": "서울특별시 노원구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "34",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "노원구",
+      "branchName": "LS���� 노원 접근점",
+      "address": "서울특별시 노원구 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "35",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "노원구",
+      "branchName": "LS�������� 노원 접근점",
+      "address": "서울특별시 노원구 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "36",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "노원구",
+      "branchName": "����Ÿ���� 노원 접근점",
+      "address": "서울특별시 노원구 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "37",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "도봉구",
+      "branchName": "SK���� 도봉 접근점",
+      "address": "서울특별시 도봉구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "38",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "도봉구",
+      "branchName": "�Ｚ���� 도봉 접근점",
+      "address": "서울특별시 도봉구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "39",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "도봉구",
+      "branchName": "��ȭ�������� 도봉 접근점",
+      "address": "서울특별시 도봉구 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "40",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "도봉구",
+      "branchName": "�������� 도봉 접근점",
+      "address": "서울특별시 도봉구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "41",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "동대문구",
+      "branchName": "LS���� 동대문 접근점",
+      "address": "서울특별시 동대문구 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "42",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "동대문구",
+      "branchName": "SK���� 동대문 접근점",
+      "address": "서울특별시 동대문구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "43",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "동대문구",
+      "branchName": "�ڸ��ƿ������� 동대문 접근점",
+      "address": "서울특별시 동대문구 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "44",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "동대문구",
+      "branchName": "�������� 동대문 접근점",
+      "address": "서울특별시 동대문구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "45",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "동작구",
+      "branchName": "NH�������� 동작 접근점",
+      "address": "서울특별시 동작구 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "46",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "동작구",
+      "branchName": "�ſ����� 동작 접근점",
+      "address": "서울특별시 동작구 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "47",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "동작구",
+      "branchName": "�ؽ�Ʈ���� 동작 접근점",
+      "address": "서울특별시 동작구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "48",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "동작구",
+      "branchName": "�ڸ��ƿ������� 동작 접근점",
+      "address": "서울특별시 동작구 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "49",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "마포구",
+      "branchName": "SK���� 마포 접근점",
+      "address": "서울특별시 마포구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "50",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "마포구",
+      "branchName": "�ϳ����� 마포 접근점",
+      "address": "서울특별시 마포구 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "51",
+      "companyName": "�Ѿ�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "마포구",
+      "branchName": "�Ѿ����� 마포 접근점",
+      "address": "서울특별시 마포구 (접근 거점 · �Ѿ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "52",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "마포구",
+      "branchName": "��ȭ�������� 마포 접근점",
+      "address": "서울특별시 마포구 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "53",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "서대문구",
+      "branchName": "LS���� 서대문 접근점",
+      "address": "서울특별시 서대문구 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "54",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "서대문구",
+      "branchName": "SK���� 서대문 접근점",
+      "address": "서울특별시 서대문구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "55",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "서대문구",
+      "branchName": "�ſ����� 서대문 접근점",
+      "address": "서울특별시 서대문구 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "56",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "서대문구",
+      "branchName": "�ڸ��ƿ������� 서대문 접근점",
+      "address": "서울특별시 서대문구 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "57",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "DB���� 서초 접근점",
+      "address": "서울특별시 서초구 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "58",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "SK���� 서초 접근점",
+      "address": "서울특별시 서초구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "59",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "�ſ����� 서초 접근점",
+      "address": "서울특별시 서초구 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "60",
+      "companyName": "���������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "��������� 서초 접근점",
+      "address": "서울특별시 서초구 (접근 거점 · ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "61",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "성동구",
+      "branchName": "BNK�������� 성동 접근점",
+      "address": "서울특별시 성동구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "62",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "성동구",
+      "branchName": "LS�������� 성동 접근점",
+      "address": "서울특별시 성동구 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "63",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "성동구",
+      "branchName": "SK���� 성동 접근점",
+      "address": "서울특별시 성동구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "64",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "성동구",
+      "branchName": "����Ÿ���� 성동 접근점",
+      "address": "서울특별시 성동구 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "65",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "성북구",
+      "branchName": "BNK�������� 성북 접근점",
+      "address": "서울특별시 성북구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "66",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "성북구",
+      "branchName": "NH�������� 성북 접근점",
+      "address": "서울특별시 성북구 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "67",
+      "companyName": "�ѱ���������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "성북구",
+      "branchName": "�ѱ��������� 성북 접근점",
+      "address": "서울특별시 성북구 (접근 거점 · �ѱ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "68",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "성북구",
+      "branchName": "��ȭ�������� 성북 접근점",
+      "address": "서울특별시 성북구 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "69",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "송파구",
+      "branchName": "BNK�������� 송파 접근점",
+      "address": "서울특별시 송파구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "70",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "송파구",
+      "branchName": "KB���� 송파 접근점",
+      "address": "서울특별시 송파구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "71",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "송파구",
+      "branchName": "�ؽ�Ʈ���� 송파 접근점",
+      "address": "서울특별시 송파구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "72",
+      "companyName": "���������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "송파구",
+      "branchName": "��������� 송파 접근점",
+      "address": "서울특별시 송파구 (접근 거점 · ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "73",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "양천구",
+      "branchName": "�α����� 양천 접근점",
+      "address": "서울특별시 양천구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "74",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "양천구",
+      "branchName": "�ٿ��������� 양천 접근점",
+      "address": "서울특별시 양천구 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "75",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "양천구",
+      "branchName": "�޸������� 양천 접근점",
+      "address": "서울특별시 양천구 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "76",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "양천구",
+      "branchName": "�������� 양천 접근점",
+      "address": "서울특별시 양천구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "77",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "DB���� 영등포 접근점",
+      "address": "서울특별시 영등포구 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "78",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "KB���� 영등포 접근점",
+      "address": "서울특별시 영등포구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "79",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "�α����� 영등포 접근점",
+      "address": "서울특별시 영등포구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "80",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "�ڸ��ƿ������� 영등포 접근점",
+      "address": "서울특별시 영등포구 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "81",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "용산구",
+      "branchName": "BNK�������� 용산 접근점",
+      "address": "서울특별시 용산구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "82",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "용산구",
+      "branchName": "�ٿ��������� 용산 접근점",
+      "address": "서울특별시 용산구 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "83",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "용산구",
+      "branchName": "��ȭ�������� 용산 접근점",
+      "address": "서울특별시 용산구 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "84",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "용산구",
+      "branchName": "���������� 용산 접근점",
+      "address": "서울특별시 용산구 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "85",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "은평구",
+      "branchName": "LS���� 은평 접근점",
+      "address": "서울특별시 은평구 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "86",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "은평구",
+      "branchName": "Ű������ 은평 접근점",
+      "address": "서울특별시 은평구 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "87",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "은평구",
+      "branchName": "�ؽ�Ʈ���� 은평 접근점",
+      "address": "서울특별시 은평구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "88",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "은평구",
+      "branchName": "��ȭ�������� 은평 접근점",
+      "address": "서울특별시 은평구 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "89",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "종로구",
+      "branchName": "SK���� 종로 접근점",
+      "address": "서울특별시 종로구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "90",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "종로구",
+      "branchName": "�ϳ����� 종로 접근점",
+      "address": "서울특별시 종로구 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "91",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "종로구",
+      "branchName": "�ؽ�Ʈ���� 종로 접근점",
+      "address": "서울특별시 종로구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "92",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "종로구",
+      "branchName": "�ٿ��������� 종로 접근점",
+      "address": "서울특별시 종로구 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "93",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "BNK�������� 중 접근점",
+      "address": "서울특별시 중구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "94",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "DB���� 중 접근점",
+      "address": "서울특별시 중구 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "95",
+      "companyName": "�Ѿ�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "�Ѿ����� 중 접근점",
+      "address": "서울특별시 중구 (접근 거점 · �Ѿ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "96",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "�ٿ��������� 중 접근점",
+      "address": "서울특별시 중구 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "97",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "중랑구",
+      "branchName": "�ſ����� 중랑 접근점",
+      "address": "서울특별시 중랑구 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "98",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "중랑구",
+      "branchName": "�ڸ��ƿ������� 중랑 접근점",
+      "address": "서울특별시 중랑구 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "99",
+      "companyName": "�������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "중랑구",
+      "branchName": "������� 중랑 접근점",
+      "address": "서울특별시 중랑구 (접근 거점 · �������)",
+      "pensionListed": true
+    },
+    {
+      "id": "100",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "서울특별시",
+      "district": "중랑구",
+      "branchName": "�������� 중랑 접근점",
+      "address": "서울특별시 중랑구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "101",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "강서구",
+      "branchName": "�α����� 강서 접근점",
+      "address": "부산광역시 강서구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "102",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "강서구",
+      "branchName": "�ؽ�Ʈ���� 강서 접근점",
+      "address": "부산광역시 강서구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "103",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "강서구",
+      "branchName": "�Ｚ���� 강서 접근점",
+      "address": "부산광역시 강서구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "104",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "강서구",
+      "branchName": "����Ÿ���� 강서 접근점",
+      "address": "부산광역시 강서구 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "105",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "금정구",
+      "branchName": "BNK�������� 금정 접근점",
+      "address": "부산광역시 금정구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "106",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "금정구",
+      "branchName": "LS���� 금정 접근점",
+      "address": "부산광역시 금정구 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "107",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "금정구",
+      "branchName": "�Ｚ���� 금정 접근점",
+      "address": "부산광역시 금정구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "108",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "금정구",
+      "branchName": "�������� 금정 접근점",
+      "address": "부산광역시 금정구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "109",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "기장군",
+      "branchName": "SK���� 기장 접근점",
+      "address": "부산광역시 기장군 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "110",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "기장군",
+      "branchName": "iM���� 기장 접근점",
+      "address": "부산광역시 기장군 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "111",
+      "companyName": "�ѱ���������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "기장군",
+      "branchName": "�ѱ��������� 기장 접근점",
+      "address": "부산광역시 기장군 (접근 거점 · �ѱ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "112",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "기장군",
+      "branchName": "���������� 기장 접근점",
+      "address": "부산광역시 기장군 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "113",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "남구",
+      "branchName": "BNK�������� 남 접근점",
+      "address": "부산광역시 남구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "114",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "남구",
+      "branchName": "Ű������ 남 접근점",
+      "address": "부산광역시 남구 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "115",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "남구",
+      "branchName": "�ٿ��������� 남 접근점",
+      "address": "부산광역시 남구 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "116",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "남구",
+      "branchName": "�Ｚ���� 남 접근점",
+      "address": "부산광역시 남구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "117",
+      "companyName": "IBK��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "동구",
+      "branchName": "IBK�������� 동 접근점",
+      "address": "부산광역시 동구 (접근 거점 · IBK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "118",
+      "companyName": "�Ѿ�����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "동구",
+      "branchName": "�Ѿ����� 동 접근점",
+      "address": "부산광역시 동구 (접근 거점 · �Ѿ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "119",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "동구",
+      "branchName": "��ȭ�������� 동 접근점",
+      "address": "부산광역시 동구 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "120",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "동구",
+      "branchName": "�������� 동 접근점",
+      "address": "부산광역시 동구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "121",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "동래구",
+      "branchName": "KB���� 동래 접근점",
+      "address": "부산광역시 동래구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "122",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "동래구",
+      "branchName": "LS���� 동래 접근점",
+      "address": "부산광역시 동래구 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "123",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "동래구",
+      "branchName": "�ϳ����� 동래 접근점",
+      "address": "부산광역시 동래구 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "124",
+      "companyName": "������������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "동래구",
+      "branchName": "������������ 동래 접근점",
+      "address": "부산광역시 동래구 (접근 거점 · ������������)",
+      "pensionListed": true
+    },
+    {
+      "id": "125",
+      "companyName": "IBK��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "부산진구",
+      "branchName": "IBK�������� 부산진 접근점",
+      "address": "부산광역시 부산진구 (접근 거점 · IBK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "126",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "부산진구",
+      "branchName": "�Ｚ���� 부산진 접근점",
+      "address": "부산광역시 부산진구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "127",
+      "companyName": "�������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "부산진구",
+      "branchName": "������� 부산진 접근점",
+      "address": "부산광역시 부산진구 (접근 거점 · �������)",
+      "pensionListed": true
+    },
+    {
+      "id": "128",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "부산진구",
+      "branchName": "�������� 부산진 접근점",
+      "address": "부산광역시 부산진구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "129",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "북구",
+      "branchName": "BNK�������� 북 접근점",
+      "address": "부산광역시 북구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "130",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "북구",
+      "branchName": "LS���� 북 접근점",
+      "address": "부산광역시 북구 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "131",
+      "companyName": "�Ѿ�����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "북구",
+      "branchName": "�Ѿ����� 북 접근점",
+      "address": "부산광역시 북구 (접근 거점 · �Ѿ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "132",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "북구",
+      "branchName": "����Ÿ���� 북 접근점",
+      "address": "부산광역시 북구 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "133",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "사상구",
+      "branchName": "�α����� 사상 접근점",
+      "address": "부산광역시 사상구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "134",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "사상구",
+      "branchName": "�ٿ��������� 사상 접근점",
+      "address": "부산광역시 사상구 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "135",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "사상구",
+      "branchName": "�޸������� 사상 접근점",
+      "address": "부산광역시 사상구 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "136",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "사상구",
+      "branchName": "�������� 사상 접근점",
+      "address": "부산광역시 사상구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "137",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "사하구",
+      "branchName": "�ſ����� 사하 접근점",
+      "address": "부산광역시 사하구 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "138",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "사하구",
+      "branchName": "�α����� 사하 접근점",
+      "address": "부산광역시 사하구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "139",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "사하구",
+      "branchName": "�Ｚ���� 사하 접근점",
+      "address": "부산광역시 사하구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "140",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "사하구",
+      "branchName": "����Ÿ���� 사하 접근점",
+      "address": "부산광역시 사하구 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "141",
+      "companyName": "IBK��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "서구",
+      "branchName": "IBK�������� 서 접근점",
+      "address": "부산광역시 서구 (접근 거점 · IBK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "142",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "서구",
+      "branchName": "KB���� 서 접근점",
+      "address": "부산광역시 서구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "143",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "서구",
+      "branchName": "�ؽ�Ʈ���� 서 접근점",
+      "address": "부산광역시 서구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "144",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "서구",
+      "branchName": "���������� 서 접근점",
+      "address": "부산광역시 서구 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "145",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "수영구",
+      "branchName": "KB���� 수영 접근점",
+      "address": "부산광역시 수영구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "146",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "수영구",
+      "branchName": "NH�������� 수영 접근점",
+      "address": "부산광역시 수영구 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "147",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "수영구",
+      "branchName": "�α����� 수영 접근점",
+      "address": "부산광역시 수영구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "148",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "수영구",
+      "branchName": "���������� 수영 접근점",
+      "address": "부산광역시 수영구 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "149",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "연제구",
+      "branchName": "LS�������� 연제 접근점",
+      "address": "부산광역시 연제구 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "150",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "연제구",
+      "branchName": "iM���� 연제 접근점",
+      "address": "부산광역시 연제구 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "151",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "연제구",
+      "branchName": "�ؽ�Ʈ���� 연제 접근점",
+      "address": "부산광역시 연제구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "152",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "연제구",
+      "branchName": "�Ｚ���� 연제 접근점",
+      "address": "부산광역시 연제구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "153",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "영도구",
+      "branchName": "BNK�������� 영도 접근점",
+      "address": "부산광역시 영도구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "154",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "영도구",
+      "branchName": "DB���� 영도 접근점",
+      "address": "부산광역시 영도구 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "155",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "영도구",
+      "branchName": "SK���� 영도 접근점",
+      "address": "부산광역시 영도구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "156",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "영도구",
+      "branchName": "�ڸ��ƿ������� 영도 접근점",
+      "address": "부산광역시 영도구 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "157",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "중구",
+      "branchName": "LS�������� 중 접근점",
+      "address": "부산광역시 중구 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "158",
+      "companyName": "�ѱ���������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "중구",
+      "branchName": "�ѱ��������� 중 접근점",
+      "address": "부산광역시 중구 (접근 거점 · �ѱ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "159",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "중구",
+      "branchName": "�ؽ�Ʈ���� 중 접근점",
+      "address": "부산광역시 중구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "160",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "중구",
+      "branchName": "��ȭ�������� 중 접근점",
+      "address": "부산광역시 중구 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "161",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "해운대구",
+      "branchName": "iM���� 해운대 접근점",
+      "address": "부산광역시 해운대구 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "162",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "해운대구",
+      "branchName": "�޸������� 해운대 접근점",
+      "address": "부산광역시 해운대구 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "163",
+      "companyName": "�������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "해운대구",
+      "branchName": "������� 해운대 접근점",
+      "address": "부산광역시 해운대구 (접근 거점 · �������)",
+      "pensionListed": true
+    },
+    {
+      "id": "164",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "부산광역시",
+      "district": "해운대구",
+      "branchName": "�������� 해운대 접근점",
+      "address": "부산광역시 해운대구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "165",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "남구",
+      "branchName": "BNK�������� 남 접근점",
+      "address": "대구광역시 남구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "166",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "남구",
+      "branchName": "�α����� 남 접근점",
+      "address": "대구광역시 남구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "167",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "남구",
+      "branchName": "�޸������� 남 접근점",
+      "address": "대구광역시 남구 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "168",
+      "companyName": "���������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "남구",
+      "branchName": "��������� 남 접근점",
+      "address": "대구광역시 남구 (접근 거점 · ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "169",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "달서구",
+      "branchName": "KB���� 달서 접근점",
+      "address": "대구광역시 달서구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "170",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "달서구",
+      "branchName": "�α����� 달서 접근점",
+      "address": "대구광역시 달서구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "171",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "달서구",
+      "branchName": "����Ÿ���� 달서 접근점",
+      "address": "대구광역시 달서구 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "172",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "달서구",
+      "branchName": "���������� 달서 접근점",
+      "address": "대구광역시 달서구 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "173",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "달성군",
+      "branchName": "BNK�������� 달성 접근점",
+      "address": "대구광역시 달성군 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "174",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "달성군",
+      "branchName": "LS���� 달성 접근점",
+      "address": "대구광역시 달성군 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "175",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "달성군",
+      "branchName": "�Ｚ���� 달성 접근점",
+      "address": "대구광역시 달성군 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "176",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "달성군",
+      "branchName": "�������� 달성 접근점",
+      "address": "대구광역시 달성군 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "177",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "동구",
+      "branchName": "LS�������� 동 접근점",
+      "address": "대구광역시 동구 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "178",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "동구",
+      "branchName": "SK���� 동 접근점",
+      "address": "대구광역시 동구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "179",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "동구",
+      "branchName": "�޸������� 동 접근점",
+      "address": "대구광역시 동구 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "180",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "동구",
+      "branchName": "���������� 동 접근점",
+      "address": "대구광역시 동구 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "181",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "북구",
+      "branchName": "DB���� 북 접근점",
+      "address": "대구광역시 북구 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "182",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "북구",
+      "branchName": "KB���� 북 접근점",
+      "address": "대구광역시 북구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "183",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "북구",
+      "branchName": "SK���� 북 접근점",
+      "address": "대구광역시 북구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "184",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "북구",
+      "branchName": "�Ｚ���� 북 접근점",
+      "address": "대구광역시 북구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "185",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "서구",
+      "branchName": "BNK�������� 서 접근점",
+      "address": "대구광역시 서구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "186",
+      "companyName": "IBK��������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "서구",
+      "branchName": "IBK�������� 서 접근점",
+      "address": "대구광역시 서구 (접근 거점 · IBK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "187",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "서구",
+      "branchName": "�ڸ��ƿ������� 서 접근점",
+      "address": "대구광역시 서구 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "188",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "서구",
+      "branchName": "�Ｚ���� 서 접근점",
+      "address": "대구광역시 서구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "189",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "수성구",
+      "branchName": "�α����� 수성 접근점",
+      "address": "대구광역시 수성구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "190",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "수성구",
+      "branchName": "�ٿ��������� 수성 접근점",
+      "address": "대구광역시 수성구 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "191",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "수성구",
+      "branchName": "�Ｚ���� 수성 접근점",
+      "address": "대구광역시 수성구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "192",
+      "companyName": "������������",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "수성구",
+      "branchName": "������������ 수성 접근점",
+      "address": "대구광역시 수성구 (접근 거점 · ������������)",
+      "pensionListed": true
+    },
+    {
+      "id": "193",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "중구",
+      "branchName": "KB���� 중 접근점",
+      "address": "대구광역시 중구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "194",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "중구",
+      "branchName": "iM���� 중 접근점",
+      "address": "대구광역시 중구 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "195",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "중구",
+      "branchName": "�α����� 중 접근점",
+      "address": "대구광역시 중구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "196",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "대구광역시",
+      "district": "중구",
+      "branchName": "����Ÿ���� 중 접근점",
+      "address": "대구광역시 중구 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "197",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "강화군",
+      "branchName": "KB���� 강화 접근점",
+      "address": "인천광역시 강화군 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "198",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "강화군",
+      "branchName": "iM���� 강화 접근점",
+      "address": "인천광역시 강화군 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "199",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "강화군",
+      "branchName": "�ſ����� 강화 접근점",
+      "address": "인천광역시 강화군 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "200",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "강화군",
+      "branchName": "�ڸ��ƿ������� 강화 접근점",
+      "address": "인천광역시 강화군 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "201",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "계양구",
+      "branchName": "SK���� 계양 접근점",
+      "address": "인천광역시 계양구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "202",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "계양구",
+      "branchName": "iM���� 계양 접근점",
+      "address": "인천광역시 계양구 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "203",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "계양구",
+      "branchName": "�ؽ�Ʈ���� 계양 접근점",
+      "address": "인천광역시 계양구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "204",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "계양구",
+      "branchName": "�������� 계양 접근점",
+      "address": "인천광역시 계양구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "205",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "남동구",
+      "branchName": "KB���� 남동 접근점",
+      "address": "인천광역시 남동구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "206",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "남동구",
+      "branchName": "�ٿ��������� 남동 접근점",
+      "address": "인천광역시 남동구 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "207",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "남동구",
+      "branchName": "�Ｚ���� 남동 접근점",
+      "address": "인천광역시 남동구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "208",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "남동구",
+      "branchName": "�������� 남동 접근점",
+      "address": "인천광역시 남동구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "209",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "동구",
+      "branchName": "KB���� 동 접근점",
+      "address": "인천광역시 동구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "210",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "동구",
+      "branchName": "iM���� 동 접근점",
+      "address": "인천광역시 동구 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "211",
+      "companyName": "�ѱ���������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "동구",
+      "branchName": "�ѱ��������� 동 접근점",
+      "address": "인천광역시 동구 (접근 거점 · �ѱ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "212",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "동구",
+      "branchName": "��ȭ�������� 동 접근점",
+      "address": "인천광역시 동구 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "213",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "미추홀구",
+      "branchName": "KB���� 미추홀 접근점",
+      "address": "인천광역시 미추홀구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "214",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "미추홀구",
+      "branchName": "LS�������� 미추홀 접근점",
+      "address": "인천광역시 미추홀구 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "215",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "미추홀구",
+      "branchName": "�α����� 미추홀 접근점",
+      "address": "인천광역시 미추홀구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "216",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "미추홀구",
+      "branchName": "���������� 미추홀 접근점",
+      "address": "인천광역시 미추홀구 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "217",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "부평구",
+      "branchName": "BNK�������� 부평 접근점",
+      "address": "인천광역시 부평구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "218",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "부평구",
+      "branchName": "SK���� 부평 접근점",
+      "address": "인천광역시 부평구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "219",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "부평구",
+      "branchName": "�ϳ����� 부평 접근점",
+      "address": "인천광역시 부평구 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "220",
+      "companyName": "�ѱ���������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "부평구",
+      "branchName": "�ѱ��������� 부평 접근점",
+      "address": "인천광역시 부평구 (접근 거점 · �ѱ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "221",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "서구",
+      "branchName": "DB���� 서 접근점",
+      "address": "인천광역시 서구 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "222",
+      "companyName": "DS��������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "서구",
+      "branchName": "DS�������� 서 접근점",
+      "address": "인천광역시 서구 (접근 거점 · DS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "223",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "서구",
+      "branchName": "LS���� 서 접근점",
+      "address": "인천광역시 서구 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "224",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "서구",
+      "branchName": "�α����� 서 접근점",
+      "address": "인천광역시 서구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "225",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "연수구",
+      "branchName": "LS�������� 연수 접근점",
+      "address": "인천광역시 연수구 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "226",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "연수구",
+      "branchName": "�ؽ�Ʈ���� 연수 접근점",
+      "address": "인천광역시 연수구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "227",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "연수구",
+      "branchName": "����Ÿ���� 연수 접근점",
+      "address": "인천광역시 연수구 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "228",
+      "companyName": "�������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "연수구",
+      "branchName": "������� 연수 접근점",
+      "address": "인천광역시 연수구 (접근 거점 · �������)",
+      "pensionListed": true
+    },
+    {
+      "id": "229",
+      "companyName": "�ѱ���������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "옹진군",
+      "branchName": "�ѱ��������� 옹진 접근점",
+      "address": "인천광역시 옹진군 (접근 거점 · �ѱ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "230",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "옹진군",
+      "branchName": "�ؽ�Ʈ���� 옹진 접근점",
+      "address": "인천광역시 옹진군 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "231",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "옹진군",
+      "branchName": "�Ｚ���� 옹진 접근점",
+      "address": "인천광역시 옹진군 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "232",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "옹진군",
+      "branchName": "���������� 옹진 접근점",
+      "address": "인천광역시 옹진군 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "233",
+      "companyName": "DS��������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "중구",
+      "branchName": "DS�������� 중 접근점",
+      "address": "인천광역시 중구 (접근 거점 · DS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "234",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "중구",
+      "branchName": "NH�������� 중 접근점",
+      "address": "인천광역시 중구 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "235",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "중구",
+      "branchName": "�ϳ����� 중 접근점",
+      "address": "인천광역시 중구 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "236",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "인천광역시",
+      "district": "중구",
+      "branchName": "�������� 중 접근점",
+      "address": "인천광역시 중구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "237",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "광산구",
+      "branchName": "BNK�������� 광산 접근점",
+      "address": "광주광역시 광산구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "238",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "광산구",
+      "branchName": "�α����� 광산 접근점",
+      "address": "광주광역시 광산구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "239",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "광산구",
+      "branchName": "�ؽ�Ʈ���� 광산 접근점",
+      "address": "광주광역시 광산구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "240",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "광산구",
+      "branchName": "�������� 광산 접근점",
+      "address": "광주광역시 광산구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "241",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "남구",
+      "branchName": "BNK�������� 남 접근점",
+      "address": "광주광역시 남구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "242",
+      "companyName": "IBK��������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "남구",
+      "branchName": "IBK�������� 남 접근점",
+      "address": "광주광역시 남구 (접근 거점 · IBK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "243",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "남구",
+      "branchName": "�ٿ��������� 남 접근점",
+      "address": "광주광역시 남구 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "244",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "남구",
+      "branchName": "�������� 남 접근점",
+      "address": "광주광역시 남구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "245",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "동구",
+      "branchName": "KB���� 동 접근점",
+      "address": "광주광역시 동구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "246",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "동구",
+      "branchName": "�޸������� 동 접근점",
+      "address": "광주광역시 동구 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "247",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "동구",
+      "branchName": "�Ｚ���� 동 접근점",
+      "address": "광주광역시 동구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "248",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "동구",
+      "branchName": "���������� 동 접근점",
+      "address": "광주광역시 동구 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "249",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "북구",
+      "branchName": "BNK�������� 북 접근점",
+      "address": "광주광역시 북구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "250",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "북구",
+      "branchName": "DB���� 북 접근점",
+      "address": "광주광역시 북구 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "251",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "북구",
+      "branchName": "LS�������� 북 접근점",
+      "address": "광주광역시 북구 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "252",
+      "companyName": "�ѱ���������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "북구",
+      "branchName": "�ѱ��������� 북 접근점",
+      "address": "광주광역시 북구 (접근 거점 · �ѱ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "253",
+      "companyName": "DS��������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "서구",
+      "branchName": "DS�������� 서 접근점",
+      "address": "광주광역시 서구 (접근 거점 · DS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "254",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "서구",
+      "branchName": "�α����� 서 접근점",
+      "address": "광주광역시 서구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "255",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "서구",
+      "branchName": "�ؽ�Ʈ���� 서 접근점",
+      "address": "광주광역시 서구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "256",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "광주광역시",
+      "district": "서구",
+      "branchName": "��ȭ�������� 서 접근점",
+      "address": "광주광역시 서구 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "257",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "대덕구",
+      "branchName": "NH�������� 대덕 접근점",
+      "address": "대전광역시 대덕구 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "258",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "대덕구",
+      "branchName": "�α����� 대덕 접근점",
+      "address": "대전광역시 대덕구 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "259",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "대덕구",
+      "branchName": "�ϳ����� 대덕 접근점",
+      "address": "대전광역시 대덕구 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "260",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "대덕구",
+      "branchName": "�ؽ�Ʈ���� 대덕 접근점",
+      "address": "대전광역시 대덕구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "261",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "동구",
+      "branchName": "BNK�������� 동 접근점",
+      "address": "대전광역시 동구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "262",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "동구",
+      "branchName": "DB���� 동 접근점",
+      "address": "대전광역시 동구 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "263",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "동구",
+      "branchName": "KB���� 동 접근점",
+      "address": "대전광역시 동구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "264",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "동구",
+      "branchName": "���������� 동 접근점",
+      "address": "대전광역시 동구 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "265",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "서구",
+      "branchName": "SK���� 서 접근점",
+      "address": "대전광역시 서구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "266",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "서구",
+      "branchName": "�ϳ����� 서 접근점",
+      "address": "대전광역시 서구 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "267",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "서구",
+      "branchName": "�Ｚ���� 서 접근점",
+      "address": "대전광역시 서구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "268",
+      "companyName": "������������",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "서구",
+      "branchName": "������������ 서 접근점",
+      "address": "대전광역시 서구 (접근 거점 · ������������)",
+      "pensionListed": true
+    },
+    {
+      "id": "269",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "유성구",
+      "branchName": "SK���� 유성 접근점",
+      "address": "대전광역시 유성구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "270",
+      "companyName": "�ѱ���������",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "유성구",
+      "branchName": "�ѱ��������� 유성 접근점",
+      "address": "대전광역시 유성구 (접근 거점 · �ѱ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "271",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "유성구",
+      "branchName": "�ڸ��ƿ������� 유성 접근점",
+      "address": "대전광역시 유성구 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "272",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "유성구",
+      "branchName": "�Ｚ���� 유성 접근점",
+      "address": "대전광역시 유성구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "273",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "중구",
+      "branchName": "BNK�������� 중 접근점",
+      "address": "대전광역시 중구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "274",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "중구",
+      "branchName": "KB���� 중 접근점",
+      "address": "대전광역시 중구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "275",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "중구",
+      "branchName": "SK���� 중 접근점",
+      "address": "대전광역시 중구 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "276",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "대전광역시",
+      "district": "중구",
+      "branchName": "Ű������ 중 접근점",
+      "address": "대전광역시 중구 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "277",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "남구",
+      "branchName": "BNK�������� 남 접근점",
+      "address": "울산광역시 남구 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "278",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "남구",
+      "branchName": "LS�������� 남 접근점",
+      "address": "울산광역시 남구 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "279",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "남구",
+      "branchName": "�ſ����� 남 접근점",
+      "address": "울산광역시 남구 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "280",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "남구",
+      "branchName": "�������� 남 접근점",
+      "address": "울산광역시 남구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "281",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "동구",
+      "branchName": "iM���� 동 접근점",
+      "address": "울산광역시 동구 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "282",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "동구",
+      "branchName": "�ڸ��ƿ������� 동 접근점",
+      "address": "울산광역시 동구 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "283",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "동구",
+      "branchName": "�Ｚ���� 동 접근점",
+      "address": "울산광역시 동구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "284",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "동구",
+      "branchName": "���������� 동 접근점",
+      "address": "울산광역시 동구 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "285",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "북구",
+      "branchName": "KB���� 북 접근점",
+      "address": "울산광역시 북구 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "286",
+      "companyName": "�Ѿ�����",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "북구",
+      "branchName": "�Ѿ����� 북 접근점",
+      "address": "울산광역시 북구 (접근 거점 · �Ѿ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "287",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "북구",
+      "branchName": "�޸������� 북 접근점",
+      "address": "울산광역시 북구 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "288",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "북구",
+      "branchName": "�Ｚ���� 북 접근점",
+      "address": "울산광역시 북구 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "289",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "울주군",
+      "branchName": "KB���� 울주 접근점",
+      "address": "울산광역시 울주군 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "290",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "울주군",
+      "branchName": "LS���� 울주 접근점",
+      "address": "울산광역시 울주군 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "291",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "울주군",
+      "branchName": "LS�������� 울주 접근점",
+      "address": "울산광역시 울주군 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "292",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "울주군",
+      "branchName": "�ؽ�Ʈ���� 울주 접근점",
+      "address": "울산광역시 울주군 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "293",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "중구",
+      "branchName": "LS�������� 중 접근점",
+      "address": "울산광역시 중구 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "294",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "중구",
+      "branchName": "�ؽ�Ʈ���� 중 접근점",
+      "address": "울산광역시 중구 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "295",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "중구",
+      "branchName": "����Ÿ���� 중 접근점",
+      "address": "울산광역시 중구 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "296",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "울산광역시",
+      "district": "중구",
+      "branchName": "�������� 중 접근점",
+      "address": "울산광역시 중구 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "297",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "세종특별자치시",
+      "district": "세종시",
+      "branchName": "BNK�������� 세종 접근점",
+      "address": "세종특별자치시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "298",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "세종특별자치시",
+      "district": "세종시",
+      "branchName": "�ſ����� 세종 접근점",
+      "address": "세종특별자치시 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "299",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "세종특별자치시",
+      "district": "세종시",
+      "branchName": "�ؽ�Ʈ���� 세종 접근점",
+      "address": "세종특별자치시 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "300",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "세종특별자치시",
+      "district": "세종시",
+      "branchName": "�Ｚ���� 세종 접근점",
+      "address": "세종특별자치시 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "301",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "수원시",
+      "branchName": "SK���� 수원 접근점",
+      "address": "경기도 수원시 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "302",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "수원시",
+      "branchName": "�ڸ��ƿ������� 수원 접근점",
+      "address": "경기도 수원시 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "303",
+      "companyName": "�������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "수원시",
+      "branchName": "������� 수원 접근점",
+      "address": "경기도 수원시 (접근 거점 · �������)",
+      "pensionListed": true
+    },
+    {
+      "id": "304",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "수원시",
+      "branchName": "�������� 수원 접근점",
+      "address": "경기도 수원시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "305",
+      "companyName": "�Ѿ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "성남시",
+      "branchName": "�Ѿ����� 성남 접근점",
+      "address": "경기도 성남시 (접근 거점 · �Ѿ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "306",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "성남시",
+      "branchName": "�ؽ�Ʈ���� 성남 접근점",
+      "address": "경기도 성남시 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "307",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "성남시",
+      "branchName": "�޸������� 성남 접근점",
+      "address": "경기도 성남시 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "308",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "성남시",
+      "branchName": "�������� 성남 접근점",
+      "address": "경기도 성남시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "309",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "고양시",
+      "branchName": "BNK�������� 고양 접근점",
+      "address": "경기도 고양시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "310",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "고양시",
+      "branchName": "KB���� 고양 접근점",
+      "address": "경기도 고양시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "311",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "고양시",
+      "branchName": "�޸������� 고양 접근점",
+      "address": "경기도 고양시 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "312",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "고양시",
+      "branchName": "�������� 고양 접근점",
+      "address": "경기도 고양시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "313",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "용인시",
+      "branchName": "LS�������� 용인 접근점",
+      "address": "경기도 용인시 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "314",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "용인시",
+      "branchName": "NH�������� 용인 접근점",
+      "address": "경기도 용인시 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "315",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "용인시",
+      "branchName": "�ؽ�Ʈ���� 용인 접근점",
+      "address": "경기도 용인시 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "316",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "용인시",
+      "branchName": "���������� 용인 접근점",
+      "address": "경기도 용인시 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "317",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "부천시",
+      "branchName": "BNK�������� 부천 접근점",
+      "address": "경기도 부천시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "318",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "부천시",
+      "branchName": "KB���� 부천 접근점",
+      "address": "경기도 부천시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "319",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "부천시",
+      "branchName": "LS�������� 부천 접근점",
+      "address": "경기도 부천시 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "320",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "부천시",
+      "branchName": "�ؽ�Ʈ���� 부천 접근점",
+      "address": "경기도 부천시 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "321",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "안산시",
+      "branchName": "Ű������ 안산 접근점",
+      "address": "경기도 안산시 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "322",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "안산시",
+      "branchName": "�α����� 안산 접근점",
+      "address": "경기도 안산시 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "323",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "안산시",
+      "branchName": "��ȭ�������� 안산 접근점",
+      "address": "경기도 안산시 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "324",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "안산시",
+      "branchName": "�������� 안산 접근점",
+      "address": "경기도 안산시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "325",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "안양시",
+      "branchName": "KB���� 안양 접근점",
+      "address": "경기도 안양시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "326",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "안양시",
+      "branchName": "iM���� 안양 접근점",
+      "address": "경기도 안양시 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "327",
+      "companyName": "�������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "안양시",
+      "branchName": "������� 안양 접근점",
+      "address": "경기도 안양시 (접근 거점 · �������)",
+      "pensionListed": true
+    },
+    {
+      "id": "328",
+      "companyName": "������������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "안양시",
+      "branchName": "������������ 안양 접근점",
+      "address": "경기도 안양시 (접근 거점 · ������������)",
+      "pensionListed": true
+    },
+    {
+      "id": "329",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "남양주시",
+      "branchName": "�α����� 남양주 접근점",
+      "address": "경기도 남양주시 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "330",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "남양주시",
+      "branchName": "�ڸ��ƿ������� 남양주 접근점",
+      "address": "경기도 남양주시 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "331",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "남양주시",
+      "branchName": "����Ÿ���� 남양주 접근점",
+      "address": "경기도 남양주시 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "332",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "남양주시",
+      "branchName": "���������� 남양주 접근점",
+      "address": "경기도 남양주시 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "333",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "화성시",
+      "branchName": "LS�������� 화성 접근점",
+      "address": "경기도 화성시 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "334",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "화성시",
+      "branchName": "�ſ����� 화성 접근점",
+      "address": "경기도 화성시 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "335",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "화성시",
+      "branchName": "�ٿ��������� 화성 접근점",
+      "address": "경기도 화성시 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "336",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "화성시",
+      "branchName": "�Ｚ���� 화성 접근점",
+      "address": "경기도 화성시 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "337",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "평택시",
+      "branchName": "SK���� 평택 접근점",
+      "address": "경기도 평택시 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "338",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "평택시",
+      "branchName": "�ٿ��������� 평택 접근점",
+      "address": "경기도 평택시 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "339",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "평택시",
+      "branchName": "�޸������� 평택 접근점",
+      "address": "경기도 평택시 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "340",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "평택시",
+      "branchName": "�������� 평택 접근점",
+      "address": "경기도 평택시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "341",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "의정부시",
+      "branchName": "LS�������� 의정부 접근점",
+      "address": "경기도 의정부시 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "342",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "의정부시",
+      "branchName": "Ű������ 의정부 접근점",
+      "address": "경기도 의정부시 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "343",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "의정부시",
+      "branchName": "�޸������� 의정부 접근점",
+      "address": "경기도 의정부시 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "344",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "의정부시",
+      "branchName": "�������� 의정부 접근점",
+      "address": "경기도 의정부시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "345",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "시흥시",
+      "branchName": "BNK�������� 흥시 접근점",
+      "address": "경기도 시흥시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "346",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "시흥시",
+      "branchName": "NH�������� 흥시 접근점",
+      "address": "경기도 시흥시 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "347",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "시흥시",
+      "branchName": "�ϳ����� 흥시 접근점",
+      "address": "경기도 시흥시 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "348",
+      "companyName": "�������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "시흥시",
+      "branchName": "������� 흥시 접근점",
+      "address": "경기도 시흥시 (접근 거점 · �������)",
+      "pensionListed": true
+    },
+    {
+      "id": "349",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "파주시",
+      "branchName": "SK���� 파주 접근점",
+      "address": "경기도 파주시 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "350",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "파주시",
+      "branchName": "�ϳ����� 파주 접근점",
+      "address": "경기도 파주시 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "351",
+      "companyName": "�ѱ���������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "파주시",
+      "branchName": "�ѱ��������� 파주 접근점",
+      "address": "경기도 파주시 (접근 거점 · �ѱ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "352",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "파주시",
+      "branchName": "�Ｚ���� 파주 접근점",
+      "address": "경기도 파주시 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "353",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "김포시",
+      "branchName": "BNK�������� 김포 접근점",
+      "address": "경기도 김포시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "354",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "김포시",
+      "branchName": "�ſ����� 김포 접근점",
+      "address": "경기도 김포시 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "355",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "김포시",
+      "branchName": "�ϳ����� 김포 접근점",
+      "address": "경기도 김포시 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "356",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "김포시",
+      "branchName": "�ؽ�Ʈ���� 김포 접근점",
+      "address": "경기도 김포시 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "357",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "광명시",
+      "branchName": "SK���� 광명 접근점",
+      "address": "경기도 광명시 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "358",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "광명시",
+      "branchName": "�ſ����� 광명 접근점",
+      "address": "경기도 광명시 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "359",
+      "companyName": "�Ѿ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "광명시",
+      "branchName": "�Ѿ����� 광명 접근점",
+      "address": "경기도 광명시 (접근 거점 · �Ѿ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "360",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "광명시",
+      "branchName": "�Ｚ���� 광명 접근점",
+      "address": "경기도 광명시 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "361",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "광주시",
+      "branchName": "KB���� 광주 접근점",
+      "address": "경기도 광주시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "362",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "광주시",
+      "branchName": "iM���� 광주 접근점",
+      "address": "경기도 광주시 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "363",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "광주시",
+      "branchName": "�ϳ����� 광주 접근점",
+      "address": "경기도 광주시 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "364",
+      "companyName": "�ѱ���������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "광주시",
+      "branchName": "�ѱ��������� 광주 접근점",
+      "address": "경기도 광주시 (접근 거점 · �ѱ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "365",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "군포시",
+      "branchName": "DB���� 포시 접근점",
+      "address": "경기도 군포시 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "366",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "군포시",
+      "branchName": "LS�������� 포시 접근점",
+      "address": "경기도 군포시 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "367",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "군포시",
+      "branchName": "iM���� 포시 접근점",
+      "address": "경기도 군포시 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "368",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "군포시",
+      "branchName": "�������� 포시 접근점",
+      "address": "경기도 군포시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "369",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "하남시",
+      "branchName": "KB���� 하남 접근점",
+      "address": "경기도 하남시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "370",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "하남시",
+      "branchName": "LS���� 하남 접근점",
+      "address": "경기도 하남시 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "371",
+      "companyName": "�Ѿ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "하남시",
+      "branchName": "�Ѿ����� 하남 접근점",
+      "address": "경기도 하남시 (접근 거점 · �Ѿ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "372",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "하남시",
+      "branchName": "��ȭ�������� 하남 접근점",
+      "address": "경기도 하남시 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "373",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "오산시",
+      "branchName": "NH�������� 오산 접근점",
+      "address": "경기도 오산시 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "374",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "오산시",
+      "branchName": "�ſ����� 오산 접근점",
+      "address": "경기도 오산시 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "375",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "오산시",
+      "branchName": "�α����� 오산 접근점",
+      "address": "경기도 오산시 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "376",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "오산시",
+      "branchName": "�ڸ��ƿ������� 오산 접근점",
+      "address": "경기도 오산시 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "377",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "이천시",
+      "branchName": "KB���� 이천 접근점",
+      "address": "경기도 이천시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "378",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "이천시",
+      "branchName": "LS�������� 이천 접근점",
+      "address": "경기도 이천시 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "379",
+      "companyName": "�Ѿ�����",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "이천시",
+      "branchName": "�Ѿ����� 이천 접근점",
+      "address": "경기도 이천시 (접근 거점 · �Ѿ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "380",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "경기도",
+      "district": "이천시",
+      "branchName": "�ڸ��ƿ������� 이천 접근점",
+      "address": "경기도 이천시 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "381",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "춘천시",
+      "branchName": "KB���� 춘천 접근점",
+      "address": "강원특별자치도 춘천시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "382",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "춘천시",
+      "branchName": "�ϳ����� 춘천 접근점",
+      "address": "강원특별자치도 춘천시 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "383",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "춘천시",
+      "branchName": "�ٿ��������� 춘천 접근점",
+      "address": "강원특별자치도 춘천시 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "384",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "원주시",
+      "branchName": "SK���� 원주 접근점",
+      "address": "강원특별자치도 원주시 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "385",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "원주시",
+      "branchName": "�Ｚ���� 원주 접근점",
+      "address": "강원특별자치도 원주시 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "386",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "원주시",
+      "branchName": "�������� 원주 접근점",
+      "address": "강원특별자치도 원주시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "387",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "강릉시",
+      "branchName": "BNK�������� 강릉 접근점",
+      "address": "강원특별자치도 강릉시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "388",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "강릉시",
+      "branchName": "�α����� 강릉 접근점",
+      "address": "강원특별자치도 강릉시 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "389",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "강릉시",
+      "branchName": "�������� 강릉 접근점",
+      "address": "강원특별자치도 강릉시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "390",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "동해시",
+      "branchName": "KB���� 동해 접근점",
+      "address": "강원특별자치도 동해시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "391",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "동해시",
+      "branchName": "LS���� 동해 접근점",
+      "address": "강원특별자치도 동해시 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "392",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "동해시",
+      "branchName": "�ڸ��ƿ������� 동해 접근점",
+      "address": "강원특별자치도 동해시 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "393",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "속초시",
+      "branchName": "iM���� 속초 접근점",
+      "address": "강원특별자치도 속초시 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "394",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "속초시",
+      "branchName": "�������� 속초 접근점",
+      "address": "강원특별자치도 속초시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "395",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "속초시",
+      "branchName": "���������� 속초 접근점",
+      "address": "강원특별자치도 속초시 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "396",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "삼척시",
+      "branchName": "KB���� 삼척 접근점",
+      "address": "강원특별자치도 삼척시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "397",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "삼척시",
+      "branchName": "��ȭ�������� 삼척 접근점",
+      "address": "강원특별자치도 삼척시 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "398",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "강원특별자치도",
+      "district": "삼척시",
+      "branchName": "�������� 삼척 접근점",
+      "address": "강원특별자치도 삼척시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "399",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "청주시",
+      "branchName": "Ű������ 청주 접근점",
+      "address": "충청북도 청주시 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "400",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "청주시",
+      "branchName": "�Ｚ���� 청주 접근점",
+      "address": "충청북도 청주시 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "401",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "청주시",
+      "branchName": "�������� 청주 접근점",
+      "address": "충청북도 청주시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "402",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "충주시",
+      "branchName": "�α����� 충주 접근점",
+      "address": "충청북도 충주시 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "403",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "충주시",
+      "branchName": "�Ｚ���� 충주 접근점",
+      "address": "충청북도 충주시 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "404",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "충주시",
+      "branchName": "�������� 충주 접근점",
+      "address": "충청북도 충주시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "405",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "제천시",
+      "branchName": "KB���� 제천 접근점",
+      "address": "충청북도 제천시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "406",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "제천시",
+      "branchName": "LS���� 제천 접근점",
+      "address": "충청북도 제천시 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "407",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "제천시",
+      "branchName": "�α����� 제천 접근점",
+      "address": "충청북도 제천시 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "408",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "음성군",
+      "branchName": "�α����� 음성 접근점",
+      "address": "충청북도 음성군 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "409",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "음성군",
+      "branchName": "�޸������� 음성 접근점",
+      "address": "충청북도 음성군 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "410",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "음성군",
+      "branchName": "����Ÿ���� 음성 접근점",
+      "address": "충청북도 음성군 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "411",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "진천군",
+      "branchName": "LS���� 진천 접근점",
+      "address": "충청북도 진천군 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "412",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "진천군",
+      "branchName": "�α����� 진천 접근점",
+      "address": "충청북도 진천군 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "413",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "충청북도",
+      "district": "진천군",
+      "branchName": "���������� 진천 접근점",
+      "address": "충청북도 진천군 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "414",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "천안시",
+      "branchName": "KB���� 천안 접근점",
+      "address": "충청남도 천안시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "415",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "천안시",
+      "branchName": "NH�������� 천안 접근점",
+      "address": "충청남도 천안시 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "416",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "천안시",
+      "branchName": "�ؽ�Ʈ���� 천안 접근점",
+      "address": "충청남도 천안시 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "417",
+      "companyName": "DS��������",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "아산시",
+      "branchName": "DS�������� 아산 접근점",
+      "address": "충청남도 아산시 (접근 거점 · DS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "418",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "아산시",
+      "branchName": "iM���� 아산 접근점",
+      "address": "충청남도 아산시 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "419",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "아산시",
+      "branchName": "�ؽ�Ʈ���� 아산 접근점",
+      "address": "충청남도 아산시 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "420",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "서산시",
+      "branchName": "KB���� 서산 접근점",
+      "address": "충청남도 서산시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "421",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "서산시",
+      "branchName": "�޸������� 서산 접근점",
+      "address": "충청남도 서산시 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "422",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "서산시",
+      "branchName": "���������� 서산 접근점",
+      "address": "충청남도 서산시 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "423",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "당진시",
+      "branchName": "KB���� 당진 접근점",
+      "address": "충청남도 당진시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "424",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "당진시",
+      "branchName": "iM���� 당진 접근점",
+      "address": "충청남도 당진시 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "425",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "당진시",
+      "branchName": "�Ｚ���� 당진 접근점",
+      "address": "충청남도 당진시 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "426",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "공주시",
+      "branchName": "BNK�������� 공주 접근점",
+      "address": "충청남도 공주시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "427",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "공주시",
+      "branchName": "iM���� 공주 접근점",
+      "address": "충청남도 공주시 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "428",
+      "companyName": "������������",
+      "companyType": "broker",
+      "province": "충청남도",
+      "district": "공주시",
+      "branchName": "������������ 공주 접근점",
+      "address": "충청남도 공주시 (접근 거점 · ������������)",
+      "pensionListed": true
+    },
+    {
+      "id": "429",
+      "companyName": "DB����",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "전주시",
+      "branchName": "DB���� 전주 접근점",
+      "address": "전북특별자치도 전주시 (접근 거점 · DB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "430",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "전주시",
+      "branchName": "KB���� 전주 접근점",
+      "address": "전북특별자치도 전주시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "431",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "전주시",
+      "branchName": "Ű������ 전주 접근점",
+      "address": "전북특별자치도 전주시 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "432",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "군산시",
+      "branchName": "BNK�������� 산시 접근점",
+      "address": "전북특별자치도 군산시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "433",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "군산시",
+      "branchName": "NH�������� 산시 접근점",
+      "address": "전북특별자치도 군산시 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "434",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "군산시",
+      "branchName": "SK���� 산시 접근점",
+      "address": "전북특별자치도 군산시 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "435",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "익산시",
+      "branchName": "Ű������ 익산 접근점",
+      "address": "전북특별자치도 익산시 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "436",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "익산시",
+      "branchName": "�α����� 익산 접근점",
+      "address": "전북특별자치도 익산시 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "437",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "익산시",
+      "branchName": "���������� 익산 접근점",
+      "address": "전북특별자치도 익산시 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "438",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "정읍시",
+      "branchName": "Ű������ 정읍 접근점",
+      "address": "전북특별자치도 정읍시 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "439",
+      "companyName": "�ſ�����",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "정읍시",
+      "branchName": "�ſ����� 정읍 접근점",
+      "address": "전북특별자치도 정읍시 (접근 거점 · �ſ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "440",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "정읍시",
+      "branchName": "�ؽ�Ʈ���� 정읍 접근점",
+      "address": "전북특별자치도 정읍시 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "441",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "남원시",
+      "branchName": "BNK�������� 남원 접근점",
+      "address": "전북특별자치도 남원시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "442",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "남원시",
+      "branchName": "�ٿ��������� 남원 접근점",
+      "address": "전북특별자치도 남원시 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "443",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "전북특별자치도",
+      "district": "남원시",
+      "branchName": "�޸������� 남원 접근점",
+      "address": "전북특별자치도 남원시 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "444",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "목포시",
+      "branchName": "BNK�������� 목포 접근점",
+      "address": "전라남도 목포시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "445",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "목포시",
+      "branchName": "�ϳ����� 목포 접근점",
+      "address": "전라남도 목포시 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "446",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "목포시",
+      "branchName": "��ȭ�������� 목포 접근점",
+      "address": "전라남도 목포시 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "447",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "여수시",
+      "branchName": "KB���� 여수 접근점",
+      "address": "전라남도 여수시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "448",
+      "companyName": "NH��������",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "여수시",
+      "branchName": "NH�������� 여수 접근점",
+      "address": "전라남도 여수시 (접근 거점 · NH��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "449",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "여수시",
+      "branchName": "�ڸ��ƿ������� 여수 접근점",
+      "address": "전라남도 여수시 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "450",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "순천시",
+      "branchName": "KB���� 순천 접근점",
+      "address": "전라남도 순천시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "451",
+      "companyName": "�������",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "순천시",
+      "branchName": "������� 순천 접근점",
+      "address": "전라남도 순천시 (접근 거점 · �������)",
+      "pensionListed": true
+    },
+    {
+      "id": "452",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "순천시",
+      "branchName": "�������� 순천 접근점",
+      "address": "전라남도 순천시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "453",
+      "companyName": "LS��������",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "나주시",
+      "branchName": "LS�������� 나주 접근점",
+      "address": "전라남도 나주시 (접근 거점 · LS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "454",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "나주시",
+      "branchName": "Ű������ 나주 접근점",
+      "address": "전라남도 나주시 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "455",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "나주시",
+      "branchName": "�α����� 나주 접근점",
+      "address": "전라남도 나주시 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "456",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "광양시",
+      "branchName": "BNK�������� 광양 접근점",
+      "address": "전라남도 광양시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "457",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "광양시",
+      "branchName": "�ڸ��ƿ������� 광양 접근점",
+      "address": "전라남도 광양시 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "458",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "전라남도",
+      "district": "광양시",
+      "branchName": "����Ÿ���� 광양 접근점",
+      "address": "전라남도 광양시 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "459",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "포항시",
+      "branchName": "BNK�������� 포항 접근점",
+      "address": "경상북도 포항시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "460",
+      "companyName": "IBK��������",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "포항시",
+      "branchName": "IBK�������� 포항 접근점",
+      "address": "경상북도 포항시 (접근 거점 · IBK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "461",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "포항시",
+      "branchName": "�������� 포항 접근점",
+      "address": "경상북도 포항시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "462",
+      "companyName": "IBK��������",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "경주시",
+      "branchName": "IBK�������� 경주 접근점",
+      "address": "경상북도 경주시 (접근 거점 · IBK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "463",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "경주시",
+      "branchName": "KB���� 경주 접근점",
+      "address": "경상북도 경주시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "464",
+      "companyName": "Ű������",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "경주시",
+      "branchName": "Ű������ 경주 접근점",
+      "address": "경상북도 경주시 (접근 거점 · Ű������)",
+      "pensionListed": true
+    },
+    {
+      "id": "465",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "구미시",
+      "branchName": "KB���� 구미 접근점",
+      "address": "경상북도 구미시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "466",
+      "companyName": "����Ÿ����",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "구미시",
+      "branchName": "����Ÿ���� 구미 접근점",
+      "address": "경상북도 구미시 (접근 거점 · ����Ÿ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "467",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "구미시",
+      "branchName": "�������� 구미 접근점",
+      "address": "경상북도 구미시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "468",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "김천시",
+      "branchName": "�޸������� 김천 접근점",
+      "address": "경상북도 김천시 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "469",
+      "companyName": "��ȭ��������",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "김천시",
+      "branchName": "��ȭ�������� 김천 접근점",
+      "address": "경상북도 김천시 (접근 거점 · ��ȭ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "470",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "김천시",
+      "branchName": "�������� 김천 접근점",
+      "address": "경상북도 김천시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "471",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "안동시",
+      "branchName": "KB���� 안동 접근점",
+      "address": "경상북도 안동시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "472",
+      "companyName": "SK����",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "안동시",
+      "branchName": "SK���� 안동 접근점",
+      "address": "경상북도 안동시 (접근 거점 · SK����)",
+      "pensionListed": true
+    },
+    {
+      "id": "473",
+      "companyName": "�ϳ�����",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "안동시",
+      "branchName": "�ϳ����� 안동 접근점",
+      "address": "경상북도 안동시 (접근 거점 · �ϳ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "474",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "영주시",
+      "branchName": "�α����� 영주 접근점",
+      "address": "경상북도 영주시 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "475",
+      "companyName": "�ٿ���������",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "영주시",
+      "branchName": "�ٿ��������� 영주 접근점",
+      "address": "경상북도 영주시 (접근 거점 · �ٿ���������)",
+      "pensionListed": true
+    },
+    {
+      "id": "476",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경상북도",
+      "district": "영주시",
+      "branchName": "�������� 영주 접근점",
+      "address": "경상북도 영주시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "477",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "창원시",
+      "branchName": "BNK�������� 창원 접근점",
+      "address": "경상남도 창원시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "478",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "창원시",
+      "branchName": "�ؽ�Ʈ���� 창원 접근점",
+      "address": "경상남도 창원시 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "479",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "창원시",
+      "branchName": "�Ｚ���� 창원 접근점",
+      "address": "경상남도 창원시 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "480",
+      "companyName": "DS��������",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "김해시",
+      "branchName": "DS�������� 김해 접근점",
+      "address": "경상남도 김해시 (접근 거점 · DS��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "481",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "김해시",
+      "branchName": "iM���� 김해 접근점",
+      "address": "경상남도 김해시 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "482",
+      "companyName": "�ؽ�Ʈ����",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "김해시",
+      "branchName": "�ؽ�Ʈ���� 김해 접근점",
+      "address": "경상남도 김해시 (접근 거점 · �ؽ�Ʈ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "483",
+      "companyName": "LS����",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "진주시",
+      "branchName": "LS���� 진주 접근점",
+      "address": "경상남도 진주시 (접근 거점 · LS����)",
+      "pensionListed": true
+    },
+    {
+      "id": "484",
+      "companyName": "�Ѿ�����",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "진주시",
+      "branchName": "�Ѿ����� 진주 접근점",
+      "address": "경상남도 진주시 (접근 거점 · �Ѿ�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "485",
+      "companyName": "�Ｚ����",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "진주시",
+      "branchName": "�Ｚ���� 진주 접근점",
+      "address": "경상남도 진주시 (접근 거점 · �Ｚ����)",
+      "pensionListed": true
+    },
+    {
+      "id": "486",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "양산시",
+      "branchName": "BNK�������� 양산 접근점",
+      "address": "경상남도 양산시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "487",
+      "companyName": "iM����",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "양산시",
+      "branchName": "iM���� 양산 접근점",
+      "address": "경상남도 양산시 (접근 거점 · iM����)",
+      "pensionListed": true
+    },
+    {
+      "id": "488",
+      "companyName": "�޸�������",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "양산시",
+      "branchName": "�޸������� 양산 접근점",
+      "address": "경상남도 양산시 (접근 거점 · �޸�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "489",
+      "companyName": "KB����",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "거제시",
+      "branchName": "KB���� 거제 접근점",
+      "address": "경상남도 거제시 (접근 거점 · KB����)",
+      "pensionListed": true
+    },
+    {
+      "id": "490",
+      "companyName": "�ڸ��ƿ�������",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "거제시",
+      "branchName": "�ڸ��ƿ������� 거제 접근점",
+      "address": "경상남도 거제시 (접근 거점 · �ڸ��ƿ�������)",
+      "pensionListed": true
+    },
+    {
+      "id": "491",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "거제시",
+      "branchName": "�������� 거제 접근점",
+      "address": "경상남도 거제시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "492",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "통영시",
+      "branchName": "BNK�������� 통영 접근점",
+      "address": "경상남도 통영시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "493",
+      "companyName": "��������",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "통영시",
+      "branchName": "�������� 통영 접근점",
+      "address": "경상남도 통영시 (접근 거점 · ��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "494",
+      "companyName": "����������",
+      "companyType": "broker",
+      "province": "경상남도",
+      "district": "통영시",
+      "branchName": "���������� 통영 접근점",
+      "address": "경상남도 통영시 (접근 거점 · ����������)",
+      "pensionListed": true
+    },
+    {
+      "id": "495",
+      "companyName": "BNK��������",
+      "companyType": "broker",
+      "province": "제주특별자치도",
+      "district": "제주시",
+      "branchName": "BNK�������� 제주 접근점",
+      "address": "제주특별자치도 제주시 (접근 거점 · BNK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "496",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "제주특별자치도",
+      "district": "제주시",
+      "branchName": "�α����� 제주 접근점",
+      "address": "제주특별자치도 제주시 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "497",
+      "companyName": "IBK��������",
+      "companyType": "broker",
+      "province": "제주특별자치도",
+      "district": "서귀포시",
+      "branchName": "IBK�������� 서귀포 접근점",
+      "address": "제주특별자치도 서귀포시 (접근 거점 · IBK��������)",
+      "pensionListed": true
+    },
+    {
+      "id": "498",
+      "companyName": "�α�����",
+      "companyType": "broker",
+      "province": "제주특별자치도",
+      "district": "서귀포시",
+      "branchName": "�α����� 서귀포 접근점",
+      "address": "제주특별자치도 서귀포시 (접근 거점 · �α�����)",
+      "pensionListed": true
+    },
+    {
+      "id": "499",
+      "companyName": "DS�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "DS�ڻ��� 본사(기관)",
+      "address": "서울특별시 강남구 · DS�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "500",
+      "companyName": "DS�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "DS�ڻ��� 본사(기관)",
+      "address": "서울특별시 영등포구 · DS�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "501",
+      "companyName": "DS�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "DS�ڻ��� 본사(기관)",
+      "address": "서울특별시 중구 · DS�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "502",
+      "companyName": "DS�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "DS�ڻ��� 본사(기관)",
+      "address": "서울특별시 서초구 · DS�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "503",
+      "companyName": "NH-AMUNDI�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "NH-AMUNDI�ڻ��� 본사(기관)",
+      "address": "서울특별시 강남구 · NH-AMUNDI�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "504",
+      "companyName": "NH-AMUNDI�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "NH-AMUNDI�ڻ��� 본사(기관)",
+      "address": "서울특별시 영등포구 · NH-AMUNDI�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "505",
+      "companyName": "NH-AMUNDI�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "NH-AMUNDI�ڻ��� 본사(기관)",
+      "address": "서울특별시 중구 · NH-AMUNDI�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "506",
+      "companyName": "NH-AMUNDI�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "NH-AMUNDI�ڻ��� 본사(기관)",
+      "address": "서울특별시 서초구 · NH-AMUNDI�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "507",
+      "companyName": "V&S�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "V&S�ڻ��� 본사(기관)",
+      "address": "서울특별시 강남구 · V&S�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "508",
+      "companyName": "V&S�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "V&S�ڻ��� 본사(기관)",
+      "address": "서울특별시 영등포구 · V&S�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "509",
+      "companyName": "V&S�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "V&S�ڻ��� 본사(기관)",
+      "address": "서울특별시 중구 · V&S�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "510",
+      "companyName": "V&S�ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "V&S�ڻ��� 본사(기관)",
+      "address": "서울특별시 서초구 · V&S�ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "511",
+      "companyName": "Ʈ�������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "Ʈ�������ڻ��� 본사(기관)",
+      "address": "서울특별시 강남구 · Ʈ�������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "512",
+      "companyName": "Ʈ�������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "Ʈ�������ڻ��� 본사(기관)",
+      "address": "서울특별시 영등포구 · Ʈ�������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "513",
+      "companyName": "Ʈ�������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "Ʈ�������ڻ��� 본사(기관)",
+      "address": "서울특별시 중구 · Ʈ�������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "514",
+      "companyName": "Ʈ�������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "Ʈ�������ڻ��� 본사(기관)",
+      "address": "서울특별시 서초구 · Ʈ�������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "515",
+      "companyName": "�ȴ��ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "�ȴ��ڻ��� 본사(기관)",
+      "address": "서울특별시 강남구 · �ȴ��ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "516",
+      "companyName": "�ȴ��ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "�ȴ��ڻ��� 본사(기관)",
+      "address": "서울특별시 영등포구 · �ȴ��ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "517",
+      "companyName": "�ȴ��ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "�ȴ��ڻ��� 본사(기관)",
+      "address": "서울특별시 중구 · �ȴ��ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "518",
+      "companyName": "�ȴ��ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "�ȴ��ڻ��� 본사(기관)",
+      "address": "서울특별시 서초구 · �ȴ��ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "519",
+      "companyName": "�ѱ����ڹ���ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "�ѱ����ڹ���ڻ��� 본사(기관)",
+      "address": "서울특별시 강남구 · �ѱ����ڹ���ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "520",
+      "companyName": "�ѱ����ڹ���ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "�ѱ����ڹ���ڻ��� 본사(기관)",
+      "address": "서울특별시 영등포구 · �ѱ����ڹ���ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "521",
+      "companyName": "�ѱ����ڹ���ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "�ѱ����ڹ���ڻ��� 본사(기관)",
+      "address": "서울특별시 중구 · �ѱ����ڹ���ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "522",
+      "companyName": "�ѱ����ڹ���ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "�ѱ����ڹ���ڻ��� 본사(기관)",
+      "address": "서울특별시 서초구 · �ѱ����ڹ���ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "523",
+      "companyName": "���̴ٽ������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "���̴ٽ������ڻ��� 본사(기관)",
+      "address": "서울특별시 강남구 · ���̴ٽ������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "524",
+      "companyName": "���̴ٽ������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "���̴ٽ������ڻ��� 본사(기관)",
+      "address": "서울특별시 영등포구 · ���̴ٽ������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "525",
+      "companyName": "���̴ٽ������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "���̴ٽ������ڻ��� 본사(기관)",
+      "address": "서울특별시 중구 · ���̴ٽ������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "526",
+      "companyName": "���̴ٽ������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "���̴ٽ������ڻ��� 본사(기관)",
+      "address": "서울특별시 서초구 · ���̴ٽ������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "527",
+      "companyName": "����ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "����ڻ��� 본사(기관)",
+      "address": "서울특별시 강남구 · ����ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "528",
+      "companyName": "����ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "����ڻ��� 본사(기관)",
+      "address": "서울특별시 영등포구 · ����ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "529",
+      "companyName": "����ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "����ڻ��� 본사(기관)",
+      "address": "서울특별시 중구 · ����ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "530",
+      "companyName": "����ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "����ڻ��� 본사(기관)",
+      "address": "서울특별시 서초구 · ����ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "531",
+      "companyName": "�������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "강남구",
+      "branchName": "�������ڻ��� 본사(기관)",
+      "address": "서울특별시 강남구 · �������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "532",
+      "companyName": "�������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "영등포구",
+      "branchName": "�������ڻ��� 본사(기관)",
+      "address": "서울특별시 영등포구 · �������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "533",
+      "companyName": "�������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "중구",
+      "branchName": "�������ڻ��� 본사(기관)",
+      "address": "서울특별시 중구 · �������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    },
+    {
+      "id": "534",
+      "companyName": "�������ڻ���",
+      "companyType": "asset_manager",
+      "province": "서울특별시",
+      "district": "서초구",
+      "branchName": "�������ڻ��� 본사(기관)",
+      "address": "서울특별시 서초구 · �������ڻ��� (위탁운용 · 공무원연금공단 거래 목록)",
+      "pensionListed": true
+    }
+  ]
+}

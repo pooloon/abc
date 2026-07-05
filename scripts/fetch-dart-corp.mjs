@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 /**
  * Build-time: Open DART corpCode.xml → public/dart-corp-code.json
- * Usage: VITE_DART_API_KEY=xxx node scripts/fetch-dart-corp.mjs
+ * Usage: DART_API_KEY=xxx node scripts/fetch-dart-corp.mjs
  */
 import { writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import JSZip from "jszip";
 
-const key = process.env.VITE_DART_API_KEY?.trim();
+const key = process.env.DART_API_KEY?.trim() || process.env.VITE_DART_API_KEY?.trim();
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const outPath = join(root, "public", "dart-corp-code.json");
 
 if (!key) {
-  console.log("skip: VITE_DART_API_KEY not set — dart-corp-code.json not generated");
+  console.log("skip: DART_API_KEY not set — dart-corp-code.json not generated");
   process.exit(0);
 }
 

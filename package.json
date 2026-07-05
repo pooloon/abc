@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/fetch-dart-corp.mjs && tsc -b && vite build",
+    "build": "node scripts/fetch-dart-corp.mjs && node scripts/generate-broker-branches.mjs && tsc -b && vite build",
     "build:dart-cache": "node scripts/fetch-dart-corp.mjs",
+    "build:broker-data": "node scripts/generate-broker-branches.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

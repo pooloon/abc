@@ -6,6 +6,7 @@ export type DashboardTab =
   | "backtest"
   | "report"
   | "alerts"
+  | "brokers"
   | "profile";
 
 interface SidebarProps {
@@ -20,6 +21,7 @@ const NAV_ITEMS: { id: DashboardTab; label: string; icon: string }[] = [
   { id: "backtest", label: "백테스트", icon: "◎" },
   { id: "report", label: "통합 리포트", icon: "▣" },
   { id: "alerts", label: "알림", icon: "◐" },
+  { id: "brokers", label: "증권사 위치", icon: "⌖" },
   { id: "profile", label: "재무·설정", icon: "⚙" },
 ];
 

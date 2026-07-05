@@ -27,6 +27,10 @@ const PAGE_META: Record<DashboardTab, { title: string; subtitle: string }> = {
     title: "Intelligence Notifications",
     subtitle: "목표가·리밸런싱·시장 트리거 알림",
   },
+  brokers: {
+    title: "Broker & Asset Manager Locator",
+    subtitle: "공무원연금공단 거래 목록 · 지역별 증권사·운용사 접근 거점",
+  },
   profile: {
     title: "Settings & Financial Profile",
     subtitle: "DART API · 투자 입력 · Reference Pack",

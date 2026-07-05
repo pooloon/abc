@@ -61,9 +61,18 @@ export interface DartKeyVerifyResult {
 }
 
 export async function verifyDartApiKey(apiKey?: string): Promise<DartKeyVerifyResult> {
+  const staticMap = await loadCorpCodeFromStatic();
+  if (staticMap && staticMap.size > 0) {
+    return {
+      ok: true,
+      message: `연동 성공 · 빌드 캐시 corpCode ${staticMap.size.toLocaleString()}건`,
+      corpCount: staticMap.size,
+    };
+  }
+
   const key = (apiKey ?? getDartApiKey()).trim();
   if (!key) {
-    return { ok: false, message: "API 키가 비어 있습니다." };
+    return { ok: false, message: "API 키가 비어 있습니다. (로컬 dev 또는 GitHub Secret 재배포)" };
   }
   if (key.length < 20) {
     return { ok: false, message: "Open DART 인증키 형식이 올바르지 않습니다. (40자)" };
@@ -152,13 +161,13 @@ export async function loadCorpCodeMap(apiKey?: string): Promise<Map<string, stri
 
     if (err instanceof TypeError) {
       throw new Error(
-        "DART API 연결 실패(CORS/프록시 없음). GitHub Pages에서는 빌드 시 corpCode 캐시 또는 DART 프록시 URL 설정이 필요합니다.",
+        "DART API 연결 실패(CORS). GitHub Pages는 빌드 캐시를 사용하고, 공시는 dart.fss.or.kr 링크로 열람하세요.",
       );
     }
 
     const detail = err instanceof Error ? err.message : "알 수 없음";
     throw new Error(
-      `DART corpCode 다운로드 실패 (${detail}). 로컬은 npm run dev, 배포 사이트는 Vercel 또는 GitHub Secrets에 DART_API_KEY 설정 후 재배포하세요.`,
+      `DART corpCode 다운로드 실패 (${detail}). GitHub Secrets에 DART_API_KEY 설정 후 Actions 재배포하거나 npm run dev를 사용하세요.`,
     );
   }
 }

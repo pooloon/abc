@@ -41,7 +41,7 @@ function buildHeaders(apiKey: string): Record<string, string> {
 function mapFetchError(err: unknown): Error {
   if (err instanceof TypeError) {
     return new Error(
-      "OpenAI API 연결 실패(CORS/네트워크). GitHub Pages에서는 재무·설정 → 프록시 URL이 필요하거나 Vercel/Netlify 배포를 사용하세요.",
+      "OpenAI API 연결 실패(CORS). GitHub Pages에서는 챗봇이 제한됩니다. npm run dev 로컬 실행을 사용하세요.",
     );
   }
   return err instanceof Error ? err : new Error("알 수 없는 오류가 발생했습니다.");
@@ -76,7 +76,7 @@ export async function testOpenAIConnection(): Promise<{ ok: boolean; message: st
         return {
           ok: false,
           message:
-            "OpenAI 프록시 경로를 찾을 수 없습니다(404). GitHub Pages는 /openai-api 프록시가 없습니다. 프록시 URL을 입력하거나 Vercel로 배포하세요.",
+            "OpenAI API 경로를 찾을 수 없습니다(404). GitHub Pages에서는 챗봇이 제한됩니다. npm run dev 로컬 실행을 사용하세요.",
         };
       }
       return { ok: false, message: "서버 응답을 JSON으로 읽을 수 없습니다." };
@@ -137,7 +137,7 @@ export async function sendChatMessage(
   } catch {
     if (response.status === 404) {
       throw new Error(
-        "OpenAI 프록시가 없습니다. GitHub Pages에서는 프록시 URL 설정 또는 Vercel 배포가 필요합니다.",
+        "GitHub Pages에서는 OpenAI CORS 제한으로 챗봇을 사용할 수 없습니다. npm run dev 로컬 실행을 사용하세요.",
       );
     }
     throw new Error("서버 응답을 읽을 수 없습니다.");

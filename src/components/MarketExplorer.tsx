@@ -5,9 +5,8 @@ import { fetchQuotes, formatMarketCap, formatPrice } from "../services/marketDat
 import type { User } from "../types";
 import type { AssetClass, NewsItem, QuoteSnapshot } from "../types/market";
 import type { KrxLoadResult, KrxListedStock } from "../types/krxDart";
-import DisclosurePanel from "./DisclosurePanel";
 import StockDetailPage from "./StockDetailPage";
-import { useDartDisclosure } from "../hooks/useDartDisclosure";
+import { buildDartSearchUrl } from "../utils/dartWebLinks";
 import type { MarketInstrument } from "../types/market";
 
 interface MarketExplorerProps {
@@ -58,7 +57,6 @@ export default function MarketExplorer({
   const [quotesLoading, setQuotesLoading] = useState(false);
   const [detailInstrument, setDetailInstrument] = useState<MarketInstrument | null>(null);
 
-  const dart = useDartDisclosure();
   const isKor = user.countryCode === "KOR";
   const fallbackInstruments = useMemo(
     () => getInstrumentsForCountry(user.countryCode),
@@ -246,16 +244,15 @@ export default function MarketExplorer({
                     </td>
                     <td>
                       {inst.assetClass === "stock" && isKor ? (
-                        <button
-                          type="button"
+                        <a
                           className="link-btn"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            void dart.loadForStock(inst.localCode);
-                          }}
+                          href={buildDartSearchUrl(inst.localCode, inst.name)}
+                          target="_blank"
+                          rel="noreferrer"
+                          onClick={(e) => e.stopPropagation()}
                         >
-                          DART
-                        </button>
+                          DART ↗
+                        </a>
                       ) : (
                         "—"
                       )}
@@ -279,24 +276,6 @@ export default function MarketExplorer({
           </table>
         </div>
       </section>
-
-      {isKor ? (
-        <DisclosurePanel
-          stockCode={dart.selectedCode}
-          stockName={
-            dart.selectedCode
-              ? (allInstruments.find((i) => i.localCode === dart.selectedCode)?.name ?? "")
-              : ""
-          }
-          company={dart.company}
-          disclosures={dart.disclosures}
-          loading={dart.loading}
-          error={dart.error}
-          onClose={() => {
-            dart.loadForStock("");
-          }}
-        />
-      ) : null}
     </div>
   );
 }

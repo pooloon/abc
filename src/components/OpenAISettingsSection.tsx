@@ -3,7 +3,6 @@ import { getOpenAIConfig, hasOpenAIKey } from "../config/openai";
 import {
   clearStoredApiKey,
   getStoredApiKey,
-  getStoredProxyUrl,
   maskApiKey,
   saveOpenAISettings,
 } from "../services/apiKeyStore";
@@ -22,7 +21,6 @@ function describeKeySources(): string {
 
 export default function OpenAISettingsSection() {
   const [apiKeyInput, setApiKeyInput] = useState("");
-  const [proxyUrlInput, setProxyUrlInput] = useState("");
   const [savedKey, setSavedKey] = useState(getStoredApiKey());
   const [message, setMessage] = useState("");
   const [messageOk, setMessageOk] = useState(false);
@@ -34,20 +32,18 @@ export default function OpenAISettingsSection() {
 
   useEffect(() => {
     setSavedKey(getStoredApiKey());
-    setProxyUrlInput(getStoredProxyUrl());
   }, []);
 
   const handleSave = async () => {
-    if (!apiKeyInput.trim() && !savedKey && !proxyUrlInput.trim()) {
+    if (!apiKeyInput.trim() && !savedKey) {
       setMessageOk(false);
-      setMessage("API 키 또는 프록시 URL 중 하나 이상을 입력하세요.");
+      setMessage("OpenAI API 키를 입력하세요.");
       return;
     }
 
     try {
-      saveOpenAISettings(apiKeyInput, proxyUrlInput);
+      saveOpenAISettings(apiKeyInput, "");
       setSavedKey(getStoredApiKey());
-      setProxyUrlInput(getStoredProxyUrl());
       setApiKeyInput("");
       setMessageOk(true);
       setMessage("AI 설정을 이 브라우저에 저장했습니다.");
@@ -87,8 +83,8 @@ export default function OpenAISettingsSection() {
       <h2>AI 도우미 · OpenAI GPT</h2>
       <p className="panel-desc">
         sk- 키는 <strong>재무·설정 → 키 저장</strong>으로 브라우저에 저장하세요.{" "}
-        <code>index.html</code>에 넣으려면 수정 후 <strong>커밋·재배포</strong>가 필요합니다.
-        GitHub Pages에서는 OpenAI CORS 때문에 <strong>프록시 URL</strong>이 필요할 수 있습니다.
+        <code>npm run dev</code> 로컬 실행 시 챗봇이 동작합니다. GitHub Pages에서는 OpenAI
+        CORS 제한으로 챗봇이 제한될 수 있습니다.
       </p>
 
       <p className="hint-box">
@@ -107,22 +103,6 @@ export default function OpenAISettingsSection() {
           autoComplete="off"
           spellCheck={false}
         />
-      </div>
-
-      <div className="field">
-        <label htmlFor="openai-proxy-url">프록시 URL (GitHub Pages 필수에 가까움)</label>
-        <input
-          id="openai-proxy-url"
-          type="url"
-          value={proxyUrlInput}
-          onChange={(e) => setProxyUrlInput(e.target.value)}
-          placeholder="https://your-worker.example.com/v1/chat/completions"
-          autoComplete="off"
-        />
-        <span className="field-hint">
-          로컬(`npm run dev`)은 /openai-api 프록시 자동. Vercel/Netlify도 rewrites 지원. GitHub
-          Pages만 직접 프록시 없음.
-        </span>
       </div>
 
       <div className="form-actions-row">

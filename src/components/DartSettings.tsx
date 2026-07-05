@@ -5,18 +5,15 @@ import {
   verifyDartApiKey,
   type DartKeyVerifyResult,
 } from "../services/dartService";
-import { getDartProxyBaseForSettings, saveDartProxyBase } from "../utils/dartApiBase";
 
 export default function DartSettings() {
   const [key, setKey] = useState(() => localStorage.getItem("dart_api_key") ?? "");
-  const [proxyBase, setProxyBase] = useState(getDartProxyBaseForSettings);
   const [saved, setSaved] = useState(false);
   const [verify, setVerify] = useState<DartKeyVerifyResult | null>(null);
   const [checking, setChecking] = useState(false);
 
   const handleSave = async () => {
     saveDartApiKey(key);
-    saveDartProxyBase(proxyBase);
     setSaved(true);
     setVerify(null);
     window.setTimeout(() => setSaved(false), 2000);
@@ -34,21 +31,21 @@ export default function DartSettings() {
     <section className="panel dart-settings">
       <h2>Open DART · 전자공시 연동</h2>
       <p className="panel-desc">
-        <a href="https://opendart.fss.or.kr/" target="_blank" rel="noreferrer">
-          opendart.fss.or.kr
+        GitHub Pages에서는 종목→기업코드(corpCode)가{" "}
+        <strong>배포 시 빌드 캐시</strong>로 제공됩니다. 공시·재무는{" "}
+        <a href="https://dart.fss.or.kr/" target="_blank" rel="noreferrer">
+          dart.fss.or.kr
         </a>
-        에서 API 키를 발급받아 입력하세요. GitHub Pages는 브라우저에서 DART 직접 호출이 안 되므로,{" "}
-        <strong>로컬 dev</strong>·<strong>Vercel</strong> 또는 아래 <strong>프록시 URL</strong>·
-        <strong>빌드 시 캐시</strong>가 필요합니다.
-        {import.meta.env.VITE_DART_API_KEY ? " (.env 키 설정됨)" : ""}
+        링크로 바로 열람하세요. 로컬(<code>npm run dev</code>)에서는 API 키로 앱 내 조회도
+        가능합니다.
       </p>
       <div className="field-row">
         <div className="field">
-          <label htmlFor="dart-key">DART API Key</label>
+          <label htmlFor="dart-key">DART API Key (로컬·선택)</label>
           <input
             id="dart-key"
             type="password"
-            placeholder="40자 인증키"
+            placeholder="40자 인증키 — 로컬 dev용"
             value={key}
             onChange={(e) => {
               setKey(e.target.value);
@@ -62,25 +59,11 @@ export default function DartSettings() {
         <button
           type="button"
           className="btn btn-sm"
-          disabled={checking || !hasDartApiKey()}
+          disabled={checking}
           onClick={() => void runVerify()}
         >
           {checking ? "확인 중…" : "연동 확인"}
         </button>
-      </div>
-
-      <div className="field">
-        <label htmlFor="dart-proxy">DART 프록시 Base URL (선택)</label>
-        <input
-          id="dart-proxy"
-          type="url"
-          placeholder="https://your-app.vercel.app/abc/api/dart"
-          value={proxyBase}
-          onChange={(e) => setProxyBase(e.target.value)}
-        />
-        <span className="field-hint">
-          Vercel에 배포한 동일 앱 URL + <code>/abc/api/dart</code> 형식. 비우면 기본 경로 사용.
-        </span>
       </div>
 
       {verify ? (
@@ -89,8 +72,11 @@ export default function DartSettings() {
         </p>
       ) : null}
 
-      {!hasDartApiKey() && !import.meta.env.VITE_DART_API_KEY ? (
-        <p className="hint-box">API 키 없으면 KRX 종목은 조회되지만 공시는 표시되지 않습니다.</p>
+      {!hasDartApiKey() ? (
+        <p className="hint-box">
+          GitHub Pages만 사용 시 키 없이도 corpCode 캐시가 있으면 연동 확인이 통과합니다. 공시는
+          시장·시세 탭의 DART 링크를 이용하세요.
+        </p>
       ) : null}
     </section>
   );

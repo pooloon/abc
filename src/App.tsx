@@ -12,6 +12,7 @@ import FullReportPanel from "./components/FullReportPanel";
 import InvestmentInputForm from "./components/InvestmentInputForm";
 import MarketExplorer from "./components/MarketExplorer";
 import StrategyReport from "./components/StrategyReport";
+import BrokerLocationPanel from "./components/BrokerLocationPanel";
 import ChatBot from "./components/ChatBot";
 import OpenAISettingsSection from "./components/OpenAISettingsSection";
 import AppShell, { type DashboardTab } from "./components/layout/AppShell";
@@ -92,6 +93,13 @@ function Dashboard() {
           onNavigateMarket={() => setTab("market")}
         />
       )}
+      {tab === "brokers" && user.countryCode === "KOR" ? <BrokerLocationPanel /> : null}
+      {tab === "brokers" && user.countryCode !== "KOR" ? (
+        <section className="panel">
+          <h2>증권사 위치</h2>
+          <p className="hint-box">한국(KOR) 국적 회원에게 제공되는 기능입니다.</p>
+        </section>
+      ) : null}
       {tab === "profile" && (
         <>
           <OpenAISettingsSection />

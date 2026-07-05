@@ -11,6 +11,7 @@ import { fetchQuotes, formatPrice } from "../services/marketDataService";
 import type { MarketInstrument, QuoteSnapshot } from "../types/market";
 import type { DartFinancialReport, KrxListedStock } from "../types/krxDart";
 import PriceChart from "./PriceChart";
+import { buildDartSearchUrl } from "../utils/dartWebLinks";
 
 interface StockDetailPageProps {
   instrument: MarketInstrument;
@@ -152,10 +153,19 @@ export default function StockDetailPage({
 
       {isKorStock ? (
         <>
-          <h3 className="sub-heading">DART 재무제표</h3>
+          <h3 className="sub-heading">DART 재무·공시</h3>
+          <p className="hint-box">
+            <a
+              href={buildDartSearchUrl(instrument.localCode, instrument.name)}
+              target="_blank"
+              rel="noreferrer"
+            >
+              dart.fss.or.kr에서 {instrument.name} 공시·재무 보기 ↗
+            </a>
+          </p>
           {finError ? <p className="form-error">{finError}</p> : null}
           {!hasDartApiKey() ? (
-            <p className="hint-box">재무·설정 탭에서 DART API 키를 입력하세요.</p>
+            <p className="meta-line">앱 내 재무표는 로컬 dev + API 키 설정 시 표시됩니다.</p>
           ) : financials ? (
             <>
               <p className="meta-line">
