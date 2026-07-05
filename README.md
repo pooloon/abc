@@ -21,9 +21,12 @@ http://localhost:5173/
 
 ## GitHub Pages 배포
 
-`main` 브랜치 push 시 Actions가 `gh-pages` 브랜치에 자동 배포합니다.
+`main` 브랜치 push 시 GitHub Actions가 자동 배포합니다.
 
-**Settings → Pages → Source:** `Deploy from a branch` → `gh-pages` / `/ (root)`
+**Settings → Pages → Build and deployment (중요):**
+
+1. **Source:** `GitHub Actions` ← `main` 브랜치 직접 배포하면 빈 화면이 됩니다
+2. Actions 탭에서 `Deploy to GitHub Pages` 워크플로가 success인지 확인
 
 배포 URL: **https://pooloon.github.io/abc/**
 
