@@ -10,8 +10,21 @@
       rel="stylesheet"
     />
     <title>Nationality Engine — 투자 설계</title>
-    <script type="module" crossorigin src="/abc/assets/index-DEUCZsXU.js"></script>
-    <link rel="stylesheet" crossorigin href="/abc/assets/index-BdQv6_IO.css">
+    <!--
+      GPT(OpenAI) API 설정 — sk- 키를 아래 apiKey에 넣거나, 앱 재무·설정 탭에서 저장하세요.
+      GitHub에 실제 키를 커밋하지 마세요. localStorage 저장값이 index.html보다 우선합니다.
+    -->
+    <script>
+      window.__NE_CONFIG__ = {
+        openai: {
+          apiKey: "",
+          model: "gpt-4o-mini",
+          proxyUrl: "",
+        },
+      };
+    </script>
+    <script type="module" crossorigin src="/abc/assets/index-CiPcDNeO.js"></script>
+    <link rel="stylesheet" crossorigin href="/abc/assets/index-B-Ldt3DT.css">
   </head>
   <body>
     <div id="root"></div>
