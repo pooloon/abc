@@ -12,6 +12,8 @@ import FullReportPanel from "./components/FullReportPanel";
 import InvestmentInputForm from "./components/InvestmentInputForm";
 import MarketExplorer from "./components/MarketExplorer";
 import StrategyReport from "./components/StrategyReport";
+import ChatBot from "./components/ChatBot";
+import OpenAISettingsSection from "./components/OpenAISettingsSection";
 import AppShell, { type DashboardTab } from "./components/layout/AppShell";
 
 interface AlertPrefill {
@@ -56,6 +58,7 @@ function Dashboard() {
       onSignOut={signOut}
       quotes={quotes}
     >
+      <ChatBot />
       {error ? <p className="form-error banner-error">{error}</p> : null}
 
       {tab === "strategy" && (
@@ -91,6 +94,7 @@ function Dashboard() {
       )}
       {tab === "profile" && (
         <>
+          <OpenAISettingsSection />
           {user.countryCode === "KOR" ? <DartSettings /> : null}
           <InvestmentInputForm user={user} form={investmentForm} setForm={setInvestmentForm} />
         </>

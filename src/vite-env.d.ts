@@ -1,5 +1,19 @@
 /// <reference types="vite/client" />
 
+interface NeRuntimeConfig {
+  openai?: {
+    apiKey?: string;
+    model?: string;
+    proxyUrl?: string;
+  };
+}
+
+declare global {
+  interface Window {
+    __NE_CONFIG__?: NeRuntimeConfig;
+  }
+}
+
 declare module "html2pdf.js" {
   interface Html2PdfOptions {
     margin?: number | number[];
@@ -18,3 +32,5 @@ declare module "html2pdf.js" {
   function html2pdf(): Html2PdfWorker;
   export default html2pdf;
 }
+
+export {};

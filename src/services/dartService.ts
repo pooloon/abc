@@ -50,6 +50,39 @@ export function hasDartApiKey(): boolean {
   return getDartApiKey().length > 0;
 }
 
+export interface DartKeyVerifyResult {
+  ok: boolean;
+  message: string;
+  corpCount?: number;
+}
+
+export async function verifyDartApiKey(apiKey?: string): Promise<DartKeyVerifyResult> {
+  const key = (apiKey ?? getDartApiKey()).trim();
+  if (!key) {
+    return { ok: false, message: "API 키가 비어 있습니다." };
+  }
+  if (key.length < 20) {
+    return { ok: false, message: "Open DART 인증키 형식이 올바르지 않습니다. (40자)" };
+  }
+
+  try {
+    const map = await loadCorpCodeMap(key);
+    if (map.size === 0) {
+      return { ok: false, message: "corpCode 맵이 비어 있습니다. 키를 확인하세요." };
+    }
+    return {
+      ok: true,
+      message: `연동 성공 · 상장사 corpCode ${map.size.toLocaleString()}건 로드됨`,
+      corpCount: map.size,
+    };
+  } catch (err) {
+    return {
+      ok: false,
+      message: err instanceof Error ? err.message : "DART API 연동 검증 실패",
+    };
+  }
+}
+
 function parseCorpCodeXml(xml: string): Map<string, string> {
   const map = new Map<string, string>();
   const doc = new DOMParser().parseFromString(xml, "text/xml");

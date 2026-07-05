@@ -14,6 +14,10 @@
     {
       "source": "/api/krx/(.*)",
       "destination": "https://data.krx.co.kr/$1"
+    },
+    {
+      "source": "/openai-api/(.*)",
+      "destination": "https://api.openai.com/$1"
     }
   ]
 }
