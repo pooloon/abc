@@ -1,15 +1,15 @@
-name: Deploy Investment Planner to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [20260705-investment-planner]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: pages-investment-planner
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -31,17 +31,12 @@ jobs:
       - name: Build for GitHub Pages
         run: npm run build
         env:
-          BASE_PATH: /vibeCD/investment/
-
-      - name: Prepare artifact for /investment/ subpath
-        run: |
-          mkdir -p public/investment
-          cp -r dist/* public/investment/
+          BASE_PATH: /abc/
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./dist
           keep_files: true
-          commit_message: "Deploy investment planner to /investment/"
+          commit_message: "Deploy to GitHub Pages"

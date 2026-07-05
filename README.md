@@ -15,26 +15,22 @@ http://localhost:5173/
 
 | 플랫폼 | URL | API 프록시 |
 |--------|-----|------------|
-| **GitHub Pages** | https://pooloon.github.io/vibeCD/investment/ | UI만 (시세 API는 CORS 제한) |
+| **GitHub Pages** | https://pooloon.github.io/abc/ | UI만 (시세 API는 CORS 제한) |
 | **Vercel** | `vercel.json` rewrites 연동 시 전체 기능 | ✅ |
 | **Netlify** | `netlify.toml` redirects 연동 시 전체 기능 | ✅ |
 
 ## GitHub Pages 배포
 
-`20260705-investment-planner` 브랜치 push 시 Actions가 `gh-pages` 브랜치의 `/investment/` 경로에 배포합니다.
+`main` 브랜치 push 시 Actions가 `gh-pages` 브랜치에 자동 배포합니다.
 
-**최초 1회 설정 (GitHub 저장소 Settings):**
+**Settings → Pages → Source:** `Deploy from a branch` → `gh-pages` / `/ (root)`
 
-1. **Pages → Build and deployment → Source:** `Deploy from a branch`
-2. **Branch:** `gh-pages` / `/ (root)`
-3. (선택) 기존 Actions 배포를 유지하려면 **Environments → github-pages → Deployment branches**에 `20260705-investment-planner` 추가
-
-배포 URL: **https://pooloon.github.io/vibeCD/investment/**
+배포 URL: **https://pooloon.github.io/abc/**
 
 수동 빌드:
 
 ```bash
-BASE_PATH=/vibeCD/investment/ npm run build
+BASE_PATH=/abc/ npm run build
 ```
 
 ## 환경 변수

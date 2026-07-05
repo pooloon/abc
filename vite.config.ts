@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-/** GitHub Pages: https://pooloon.github.io/vibeCD/investment/ */
+/** GitHub Pages: https://pooloon.github.io/abc/ */
 const base = process.env.BASE_PATH ?? "/";
 
 export default defineConfig({
