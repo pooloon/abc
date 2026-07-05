@@ -40,7 +40,12 @@ export function saveOpenAISettings(apiKey: string, proxyUrl: string): void {
 }
 
 export function clearStoredApiKey(): void {
-  saveOpenAISettings("", getStoredProxyUrl());
+  try {
+    localStorage.removeItem(API_KEY_STORAGE);
+    window.dispatchEvent(new CustomEvent(KEY_CHANGED_EVENT));
+  } catch {
+    throw new Error("브라우저 저장소에서 API 키를 삭제할 수 없습니다.");
+  }
 }
 
 export function maskApiKey(key: string): string {

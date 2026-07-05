@@ -17,19 +17,84 @@ const SYSTEM_PROMPT = `당신은 "Nationality Engine" 투자 설계 AI 도우미
 한국어로 간결하고 친절하게 답변하세요. 앱 탭(순차 전략, 시장·시세, 백테스트, 통합 리포트, 알림, 재무·설정)을 구체적으로 안내할 수 있습니다.
 투자 수익을 보장하지 않으며, 모든 조언은 참고용임을 필요 시 상기하세요.`;
 
-function resolveEndpoint(): { url: string; useProxy: boolean } {
+function resolveEndpoint(): string {
   const { proxyUrl } = getOpenAIConfig();
   const trimmedProxy = proxyUrl.trim();
+  if (trimmedProxy) return trimmedProxy;
 
-  if (trimmedProxy) {
-    return { url: trimmedProxy, useProxy: true };
+  const base = import.meta.env.BASE_URL.replace(/\/?$/, "");
+  return `${base}/openai-api/v1/chat/completions`;
+}
+
+function buildHeaders(apiKey: string): Record<string, string> {
+  const headers: Record<string, string> = {
+    "Content-Type": "application/json",
+  };
+
+  if (apiKey.trim()) {
+    headers.Authorization = `Bearer ${apiKey.trim()}`;
   }
 
-  if (import.meta.env.DEV) {
-    return { url: "/openai-api/v1/chat/completions", useProxy: true };
+  return headers;
+}
+
+function mapFetchError(err: unknown): Error {
+  if (err instanceof TypeError) {
+    return new Error(
+      "OpenAI API 연결 실패(CORS/네트워크). GitHub Pages에서는 재무·설정 → 프록시 URL이 필요하거나 Vercel/Netlify 배포를 사용하세요.",
+    );
+  }
+  return err instanceof Error ? err : new Error("알 수 없는 오류가 발생했습니다.");
+}
+
+export async function testOpenAIConnection(): Promise<{ ok: boolean; message: string }> {
+  const { apiKey, model } = getOpenAIConfig();
+  if (!apiKey.trim()) {
+    return {
+      ok: false,
+      message:
+        "API 키가 없습니다. sk- 키를 재무·설정에 저장하거나 index.html의 __NE_CONFIG__.openai.apiKey에 입력 후 재배포하세요.",
+    };
   }
 
-  return { url: "https://api.openai.com/v1/chat/completions", useProxy: false };
+  try {
+    const response = await fetch(resolveEndpoint(), {
+      method: "POST",
+      headers: buildHeaders(apiKey),
+      body: JSON.stringify({
+        model,
+        messages: [{ role: "user", content: "ping" }],
+        max_tokens: 5,
+      }),
+    });
+
+    let data: ChatCompletionResponse;
+    try {
+      data = (await response.json()) as ChatCompletionResponse;
+    } catch {
+      if (!response.ok && response.status === 404) {
+        return {
+          ok: false,
+          message:
+            "OpenAI 프록시 경로를 찾을 수 없습니다(404). GitHub Pages는 /openai-api 프록시가 없습니다. 프록시 URL을 입력하거나 Vercel로 배포하세요.",
+        };
+      }
+      return { ok: false, message: "서버 응답을 JSON으로 읽을 수 없습니다." };
+    }
+
+    if (!response.ok) {
+      const msg =
+        data.error?.message ??
+        (response.status === 401
+          ? "API 키가 올바르지 않습니다."
+          : `요청 실패 (${response.status})`);
+      return { ok: false, message: msg };
+    }
+
+    return { ok: true, message: `연동 성공 · 모델 ${model}` };
+  } catch (err) {
+    return { ok: false, message: mapFetchError(err).message };
+  }
 }
 
 export async function sendChatMessage(
@@ -37,20 +102,11 @@ export async function sendChatMessage(
   userText: string,
 ): Promise<string> {
   const { apiKey, model } = getOpenAIConfig();
-  const { url, useProxy } = resolveEndpoint();
 
-  if (!useProxy && !apiKey.trim()) {
+  if (!apiKey.trim()) {
     throw new Error(
-      "API 키가 없습니다. index.html __NE_CONFIG__ 또는 재무·설정 → AI 도우미에서 OpenAI API 키를 저장하세요.",
+      "API 키가 없습니다. 재무·설정 → AI 도우미에서 sk- 키를 저장하거나 index.html __NE_CONFIG__에 입력하세요.",
     );
-  }
-
-  const headers: Record<string, string> = {
-    "Content-Type": "application/json",
-  };
-
-  if (!useProxy || (import.meta.env.DEV && !getOpenAIConfig().proxyUrl.trim())) {
-    headers.Authorization = `Bearer ${apiKey.trim()}`;
   }
 
   const body = {
@@ -64,16 +120,26 @@ export async function sendChatMessage(
     max_tokens: 900,
   };
 
-  const response = await fetch(url, {
-    method: "POST",
-    headers,
-    body: JSON.stringify(body),
-  });
+  let response: Response;
+  try {
+    response = await fetch(resolveEndpoint(), {
+      method: "POST",
+      headers: buildHeaders(apiKey),
+      body: JSON.stringify(body),
+    });
+  } catch (err) {
+    throw mapFetchError(err);
+  }
 
   let data: ChatCompletionResponse;
   try {
     data = (await response.json()) as ChatCompletionResponse;
   } catch {
+    if (response.status === 404) {
+      throw new Error(
+        "OpenAI 프록시가 없습니다. GitHub Pages에서는 프록시 URL 설정 또는 Vercel 배포가 필요합니다.",
+      );
+    }
     throw new Error("서버 응답을 읽을 수 없습니다.");
   }
 
