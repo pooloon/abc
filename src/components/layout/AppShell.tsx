@@ -3,6 +3,8 @@ import type { User } from "../../types";
 import type { QuoteSnapshot } from "../../types/market";
 import AppFooter from "./AppFooter";
 import AppHeader from "./AppHeader";
+import DashboardTabNav from "./DashboardTabNav";
+import MainVideoBanner from "./MainVideoBanner";
 import MarketTicker from "./MarketTicker";
 import Sidebar, { type DashboardTab } from "./Sidebar";
 
@@ -67,6 +69,8 @@ export default function AppShell({
           subtitle={meta.subtitle}
         />
         <MarketTicker quotes={quotes} />
+        <MainVideoBanner />
+        <DashboardTabNav activeTab={activeTab} onTabChange={onTabChange} />
         <main className="app-content">{children}</main>
         <AppFooter />
       </div>

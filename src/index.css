@@ -270,6 +270,75 @@ body {
   color: var(--text-secondary);
 }
 
+/* Main video banner (YouTube embed) */
+.main-video-banner {
+  padding: 0 1.5rem;
+  background: var(--bg-elevated);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.main-video-banner-frame {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0.75rem auto 0;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #000;
+}
+
+.main-video-banner-embed {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.main-video-banner-caption {
+  max-width: 960px;
+  margin: 0.35rem auto 0.65rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* Dashboard pill tab nav */
+.dashboard-tab-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0.65rem 1.5rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.dashboard-tab-btn {
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-secondary);
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.dashboard-tab-btn:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.dashboard-tab-btn.active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .app-content {
   flex: 1;
   padding: 1.25rem 1.5rem 2rem;

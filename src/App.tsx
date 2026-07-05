@@ -93,13 +93,7 @@ function Dashboard() {
           onNavigateMarket={() => setTab("market")}
         />
       )}
-      {tab === "brokers" && user.countryCode === "KOR" ? <BrokerLocationPanel /> : null}
-      {tab === "brokers" && user.countryCode !== "KOR" ? (
-        <section className="panel">
-          <h2>증권사 위치</h2>
-          <p className="hint-box">한국(KOR) 국적 회원에게 제공되는 기능입니다.</p>
-        </section>
-      ) : null}
+      {tab === "brokers" ? <BrokerLocationPanel /> : null}
       {tab === "profile" && (
         <>
           <OpenAISettingsSection />
